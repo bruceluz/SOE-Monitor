@@ -160,8 +160,6 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
           <span style="font-size:12px;color:#c2410c;font-weight:700;margin-top:4px">PROTOCOLO</span>
         </div>
         <div style="font-size:26px;font-weight:700;color:#c2410c" id="media-prot">—</div>
-        <div style="font-size:10px;color:#6366f1;font-weight:600;margin-bottom:4px" id="media-prot-mediana"></div>
-        <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-prot-n"></div>
         <div style="font-size:10px;color:#9ca3af;margin-top:2px" id="media-prot-tipo"></div>
       </div>
       <div onclick="filtrarStatus('Na fila')" id="stat-fila-m"
@@ -171,8 +169,6 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
           <span style="font-size:12px;color:#b45309;font-weight:700;margin-top:4px">NA FILA</span>
         </div>
         <div style="font-size:26px;font-weight:700;color:#b45309" id="media-fila">—</div>
-        <div style="font-size:10px;color:#6366f1;font-weight:600;margin-bottom:4px" id="media-fila-mediana"></div>
-        <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-fila-n"></div>
         <div style="font-size:10px;color:#9ca3af;margin-top:2px" id="media-fila-tipo"></div>
       </div>
       <div onclick="filtrarStatus('Em processamento')" id="stat-emproc-m"
@@ -182,8 +178,6 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
           <span style="font-size:12px;color:#3f6212;font-weight:700;margin-top:4px">EM PROCESSAMENTO</span>
         </div>
         <div style="font-size:26px;font-weight:700;color:#3f6212" id="media-proc">—</div>
-        <div style="font-size:10px;color:#6366f1;font-weight:600;margin-bottom:4px" id="media-proc-mediana"></div>
-        <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-proc-n"></div>
         <div style="font-size:10px;color:#9ca3af;margin-top:2px" id="media-proc-tipo"></div>
       </div>
       <div onclick="filtrarStatus('Processado')" id="stat-proc-m"
@@ -193,8 +187,6 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
           <span style="font-size:12px;color:#065f46;font-weight:700;margin-top:4px">PROCESSADO</span>
         </div>
         <div style="font-size:26px;font-weight:700;color:#065f46" id="media-total">—</div>
-        <div style="font-size:10px;color:#6366f1;font-weight:600;margin-bottom:4px" id="media-total-mediana"></div>
-        <div style="font-size:11px;color:#6b7280;margin-bottom:4px" id="media-total-n"></div>
         <div style="font-size:10px;color:#9ca3af;margin-top:2px" id="media-total-tipo"></div>
       </div>
     </div>
@@ -207,8 +199,6 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
           <span style="font-size:10px;color:#475569;font-weight:700;margin-top:2px">OUTORGA PUBLICADA</span>
         </div>
         <div style="font-size:18px;font-weight:700;color:#475569" id="media-resultado">—</div>
-        <div style="font-size:9px;color:#6366f1;font-weight:600;margin-bottom:3px" id="media-resultado-mediana"></div>
-        <div style="font-size:10px;color:#6b7280;margin-bottom:3px" id="media-resultado-n"></div>
         <div style="font-size:9px;color:#9ca3af;margin-top:1px" id="media-resultado-tipo"></div>
         <div style="font-size:9px;color:#9ca3af;margin-top:1px" id="media-resultado-todos"></div>
       </div>
@@ -219,8 +209,6 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
           <span style="font-size:10px;color:#475569;font-weight:700;margin-top:2px">TOTAL GERAL</span>
         </div>
         <div style="font-size:18px;font-weight:700;color:#475569" id="media-total-geral">—</div>
-        <div style="font-size:9px;color:#6366f1;font-weight:600;margin-bottom:3px" id="media-total-geral-mediana"></div>
-        <div style="font-size:10px;color:#6b7280;margin-bottom:3px" id="media-total-geral-n"></div>
         <div style="font-size:9px;color:#9ca3af;margin-top:1px" id="media-total-geral-tipo"></div>
       </div>
     </div>
@@ -26841,14 +26829,10 @@ function atualizarMedias() {
       max: {dias: vals[vals.length-1], nome: pairs[vals.length-1].nome}
     };
   }
-  function set(prefix, res, nTotal, nTodos) {
+  function set(prefix, res, pocos) {
     document.getElementById(prefix).textContent = res.media !== null ? res.media + ' d' : '—';
-    const elMed = document.getElementById(prefix+'-mediana');
-    if (elMed) elMed.textContent = res.mediana !== null ? 'mediana ' + res.mediana + ' d' : '';
-    const nPrim = (nTotal !== undefined && nTotal > 0) ? nTotal : res.n;
-    document.getElementById(prefix+'-n').textContent = nPrim ? nPrim + ' processos' : '';
     const elTipo = document.getElementById(prefix+'-tipo');
-    if (elTipo) elTipo.textContent = (res.n && res.n !== nPrim) ? res.n + (res.n !== 1 ? ' poços' : ' poço') : '';
+    if (elTipo) elTipo.textContent = pocos ? pocos + (pocos !== 1 ? ' poços' : ' poço') : '';
     const elTodos = document.getElementById(prefix+'-todos');
     if (elTodos) elTodos.textContent = '';
   }
@@ -26867,24 +26851,22 @@ function atualizarMedias() {
   sTotal.mediana     = sTotalAll.mediana;
   sResultado.mediana = sTotalAll.mediana;
 
-  const allProt     = src.filter(r => r.dias_protocolo      != null && r.dias_protocolo      !== '').length;
-  const allFila     = src.filter(r => r.dias_fila           != null && r.dias_fila           !== '').length;
-  const allProcEl   = src.filter(r => r.dias_processamento  != null && r.dias_processamento  !== '').length;
-  const allTotal    = src.filter(r => r.status === 'Processado').length;
-  const allResultado= src.filter(r => r.status && (r.status.includes('Resultado') || r.status.includes('Deferida') || r.status.includes('Indeferida'))).length;
+  // Poços (não outros tipos de requerimento) que estão AGORA em cada etapa,
+  // pelo status atual — diferente das médias acima, que olham o histórico todo.
+  const pocosProt       = srcRef.filter(r => r.status === 'Protocolo').length;
+  const pocosFila       = srcRef.filter(r => r.status === 'Na fila').length;
+  const pocosProc       = srcRef.filter(r => r.status === 'Em processamento').length;
+  const pocosProcessado = processadoRef.length;
+  const pocosResultado  = resultadoRef.length;
 
-  set('media-prot',      sProt,     allProt);
-  set('media-fila',      sFila,     allFila);
-  set('media-proc',      sProc,     allProcEl);
-  set('media-total',     sTotal,    allTotal);
-  set('media-resultado', sResultado, allResultado, src.length);
+  set('media-prot',      sProt,      pocosProt);
+  set('media-fila',      sFila,      pocosFila);
+  set('media-proc',      sProc,      pocosProc);
+  set('media-total',     sTotal,     pocosProcessado);
+  set('media-resultado', sResultado, pocosResultado);
   const sTotalGeral = stats('dias_total', src.filter(r => r.status && (r.status === 'Processado' || r.status.includes('Resultado') || r.status.includes('Deferida') || r.status.includes('Indeferida'))));
   const elTG = document.getElementById('media-total-geral');
   if (elTG) elTG.textContent = sTotalGeral.media !== null ? sTotalGeral.media + ' d' : '—';
-  const elTGMed = document.getElementById('media-total-geral-mediana');
-  if (elTGMed) elTGMed.textContent = sTotalGeral.mediana !== null ? 'mediana ' + sTotalGeral.mediana + ' d' : '';
-  const elTGN = document.getElementById('media-total-geral-n');
-  if (elTGN) elTGN.textContent = src.length + ' processos';
   const elTGTipo = document.getElementById('media-total-geral-tipo');
   if (elTGTipo) elTGTipo.textContent = sTotalGeral.n ? sTotalGeral.n + ' finalizados' : '';
   _medias = {
