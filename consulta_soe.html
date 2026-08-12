@@ -232,16 +232,15 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         <input type="text" id="busca" placeholder="Empreendimento, código, tipo..." oninput="aplicarFiltros()">
       </div>
       <div class="field">
-        <label>Status <span id="status-count" style="font-size:10px;color:#6b7280;font-weight:400"></span></label>
-        <div id="filtroStatusBtns" style="display:flex;flex-wrap:wrap;gap:5px;margin-top:2px">
-          <button class="sf-btn" data-val="" onclick="toggleStatusFiltro(this)" style="background:#3D397E;color:#fff;border:none;border-radius:14px;padding:4px 11px;font-size:12px;cursor:pointer;font-weight:600">Todos</button>
-          <button class="sf-btn" data-val="Protocolo" onclick="toggleStatusFiltro(this)" style="background:#e5e7eb;color:#374151;border:none;border-radius:14px;padding:4px 11px;font-size:12px;cursor:pointer">Protocolo</button>
-          <button class="sf-btn" data-val="Na fila" onclick="toggleStatusFiltro(this)" style="background:#e5e7eb;color:#374151;border:none;border-radius:14px;padding:4px 11px;font-size:12px;cursor:pointer">Na fila</button>
-          <button class="sf-btn" data-val="Em processamento" onclick="toggleStatusFiltro(this)" style="background:#e5e7eb;color:#374151;border:none;border-radius:14px;padding:4px 11px;font-size:12px;cursor:pointer">Em processamento</button>
-          <button class="sf-btn" data-val="Processado" onclick="toggleStatusFiltro(this)" style="background:#e5e7eb;color:#374151;border:none;border-radius:14px;padding:4px 11px;font-size:12px;cursor:pointer">Processado</button>
-          <button class="sf-btn" data-val="__resultado__" onclick="toggleStatusFiltro(this)" style="background:#e5e7eb;color:#374151;border:none;border-radius:14px;padding:4px 11px;font-size:12px;cursor:pointer">Outorga publicada</button>
-        </div>
-        <input type="hidden" id="filtroStatus" value="">
+        <label>Status</label>
+        <select id="filtroStatus" onchange="aplicarFiltros()">
+          <option value="">Todos os status</option>
+          <option value="Protocolo">Protocolo</option>
+          <option value="Na fila">Na Fila</option>
+          <option value="Em processamento">Em Processamento</option>
+          <option value="Processado">Processado</option>
+          <option value="__resultado__">Outorga publicada</option>
+        </select>
       </div>
       <div class="field">
         <label>Tipo</label>
@@ -28161,7 +28160,6 @@ const DADOS = [
 ];
 
 let filtroStatusAtivo = '';
-let filtroStatusSet = new Set();
 let sortCol = 'status';
 let sortAsc = true;
 let dadosFiltrados = [...DADOS];
@@ -28446,49 +28444,19 @@ function esc(s) {
   return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;').replace(/>/g,'&gt;').replace(/"/g,'&quot;');
 }
 
-function toggleStatusFiltro(btn) {
-  const val = btn.dataset.val;
-  if (val === '') {
-    // Todos — limpa seleção
-    filtroStatusSet.clear();
-    document.querySelectorAll('.sf-btn').forEach(b => {
-      b.style.background = '#e5e7eb'; b.style.color = '#374151';
-    });
-    btn.style.background = '#3D397E'; btn.style.color = '#fff';
-  } else {
-    // Desativa "Todos"
-    const todosBtn = document.querySelector('.sf-btn[data-val=""]');
-    todosBtn.style.background = '#e5e7eb'; todosBtn.style.color = '#374151';
-    if (filtroStatusSet.has(val)) {
-      filtroStatusSet.delete(val);
-      btn.style.background = '#e5e7eb'; btn.style.color = '#374151';
-    } else {
-      filtroStatusSet.add(val);
-      btn.style.background = '#3D397E'; btn.style.color = '#fff';
-    }
-    // Se nenhum selecionado, volta "Todos" ativo
-    if (filtroStatusSet.size === 0) {
-      todosBtn.style.background = '#3D397E'; todosBtn.style.color = '#fff';
-    }
-  }
-  const cnt = document.getElementById('status-count');
-  if (cnt) cnt.textContent = filtroStatusSet.size > 0 ? `(${filtroStatusSet.size} selecionado${filtroStatusSet.size>1?'s':''})` : '';
-  aplicarFiltros();
-}
-
 function aplicarFiltros() {
   const busca = document.getElementById('busca').value.toLowerCase();
+  const status = document.getElementById('filtroStatus').value;
+  if (status !== filtroStatusAtivo) filtroStatusAtivo = status;
   const tipo = document.getElementById('filtroTipo').value;
   const notif = document.getElementById('filtroNotif').value;
 
   dadosFiltrados = DADOS.filter(r => {
-    if (filtroStatusSet.size > 0) {
+    if (status) {
       const statusEfetivo = (r.doe_publicacoes && r.doe_publicacoes.length) ? 'Outorga publicada' : r.status;
-      const match = [...filtroStatusSet].some(s => {
-        if (s === '__resultado__') return statusEfetivo === 'Outorga publicada' || (r.status && (r.status.includes('Resultado') || r.status.includes('Deferida') || r.status.includes('Indeferida')));
-        return statusEfetivo === s;
-      });
-      if (!match) return false;
+      if (status === '__resultado__') {
+        if (statusEfetivo !== 'Outorga publicada' && (!r.status || (!r.status.includes('Resultado') && !r.status.includes('Deferida') && !r.status.includes('Indeferida')))) return false;
+      } else if (statusEfetivo !== status) return false;
     }
     if (tipo && r.tipo !== tipo) return false;
     if (notif) {
@@ -28509,20 +28477,8 @@ function aplicarFiltros() {
 }
 
 function filtrarStatus(s) {
-  // Clique nos cards do topo: selecao exclusiva (substitui multi)
-  filtroStatusSet.clear();
-  document.querySelectorAll('.sf-btn').forEach(b => { b.style.background='#e5e7eb'; b.style.color='#374151'; });
-  if (s) {
-    filtroStatusSet.add(s);
-    const btn = document.querySelector(`.sf-btn[data-val="${s}"]`);
-    if (btn) { btn.style.background='#3D397E'; btn.style.color='#fff'; }
-  } else {
-    const todosBtn = document.querySelector('.sf-btn[data-val=""]');
-    if (todosBtn) { todosBtn.style.background='#3D397E'; todosBtn.style.color='#fff'; }
-  }
-  const cnt = document.getElementById('status-count');
-  if (cnt) cnt.textContent = filtroStatusSet.size > 0 ? `(${filtroStatusSet.size} selecionado${filtroStatusSet.size>1?'s':''})` : '';
-
+  filtroStatusAtivo = s;
+  document.getElementById('filtroStatus').value = s;
   document.querySelectorAll('.stat,.media-box').forEach(el => el.classList.remove('ativo'));
   if (s === '') document.getElementById('stat-all')?.classList.add('ativo');
   else if (s === 'Protocolo') { document.getElementById('stat-prot')?.classList.add('ativo'); document.getElementById('stat-prot-m')?.classList.add('ativo'); }
@@ -28530,21 +28486,15 @@ function filtrarStatus(s) {
   else if (s === 'Em processamento') { document.getElementById('stat-emproc')?.classList.add('ativo'); document.getElementById('stat-emproc-m')?.classList.add('ativo'); }
   else if (s === 'Processado') { document.getElementById('stat-proc')?.classList.add('ativo'); document.getElementById('stat-proc-m')?.classList.add('ativo'); }
   else if (s === '__resultado__') { document.getElementById('stat-result')?.classList.add('ativo'); document.getElementById('stat-result-m')?.classList.add('ativo'); }
-
   aplicarFiltros();
 }
 
 function limparFiltros() {
   filtroStatusAtivo = '';
-  filtroStatusSet.clear();
   document.getElementById('busca').value = '';
+  document.getElementById('filtroStatus').value = '';
   document.getElementById('filtroTipo').value = '';
   document.getElementById('filtroNotif').value = '';
-  document.querySelectorAll('.sf-btn').forEach(b => { b.style.background='#e5e7eb'; b.style.color='#374151'; });
-  const todosBtn = document.querySelector('.sf-btn[data-val=""]');
-  if (todosBtn) { todosBtn.style.background='#3D397E'; todosBtn.style.color='#fff'; }
-  const cnt = document.getElementById('status-count');
-  if (cnt) cnt.textContent = '';
   document.querySelectorAll('.stat,.media-box').forEach(el => el.classList.remove('ativo'));
   aplicarFiltros();
 }
