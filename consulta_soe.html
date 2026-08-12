@@ -26897,12 +26897,25 @@ function renderTabela(dados) {
     const url = `https://outorga.spaguas.sp.gov.br/Portal/MeusRequerimentos/RequerimentosSubmetidos/${r.emp_id}`;
     const portalUrl = `https://outorga.spaguas.sp.gov.br/Portal/MeusRequerimentos/RequerimentosSubmetidos/${r.emp_id}`;
     const cnpjHtml = r.req_cnpj ? `<br><span style="font-size:10px;color:#333;font-weight:400">${esc(r.req_cnpj)}</span>` : '';
+
+    // Se tem publicacao DOE: status = Outorga publicada, dias_total = protocolo->DOE
+    const doePubs = r.doe_publicacoes && r.doe_publicacoes.length ? r.doe_publicacoes : null;
+    const statusEfetivo = doePubs ? 'Outorga publicada' : r.status;
+    let diasTotalEfetivo = r.dias_total;
+    if (doePubs && r.data_protocolo) {
+      const prot = parseDMY(r.data_protocolo);
+      const doeDt = new Date(doePubs[0].data_publicacao); // yyyy-mm-dd
+      if (prot && !isNaN(doeDt)) {
+        diasTotalEfetivo = Math.round((doeDt - prot) / 86400000);
+      }
+    }
+
     return `<tr>
       <td style="text-align:center;font-size:11px;color:#aaa;font-weight:600;white-space:nowrap">${i+1}</td>
       <td class="td-emp"><a href="${url}" target="_blank" class="link-soe">${esc(empNome)}</a>${cnpjHtml}</td>
       <td class="td-tipo">${esc(r.tipo || '—')}</td>
-      <td>${badgeStatus(r.status)}</td>
-      ${diasDataCell(r.dias_total, r.data_protocolo, 'dias_total', false)}
+      <td>${badgeStatus(statusEfetivo)}</td>
+      ${diasDataCell(diasTotalEfetivo, r.data_protocolo, 'dias_total', false)}
       ${diasDataCell(r.dias_protocolo, r.data_protocolo, 'dias_protocolo')}
       ${diasDataCell(r.dias_fila, r.data_fila, 'dias_fila')}
       ${diasDataCell(r.dias_processamento, r.data_processamento, 'dias_processamento')}
