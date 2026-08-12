@@ -279,7 +279,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
             <th onclick="ordenar('dias_fila')" style="text-align:center">FILA<br><span style="font-size:9px;font-weight:400;opacity:.7">dias / data</span><span class="sort-icon" id="si-dias_fila">↕</span></th>
             <th onclick="ordenar('dias_processamento')" style="text-align:center">PROCESSAMENTO<br><span style="font-size:9px;font-weight:400;opacity:.7">dias / data</span><span class="sort-icon" id="si-dias_processamento">↕</span></th>
             <th onclick="ordenar('codigo')">IDENTIFICAÇÃO<span class="sort-icon" id="si-codigo">↕</span></th>
-            <th style="text-align:center">DOE<br><span style="font-size:9px;font-weight:400;opacity:.7">publicações</span></th>
+            <th onclick="ordenar('doe_data')" style="text-align:center;cursor:pointer">DOE<br><span style="font-size:9px;font-weight:400;opacity:.7">publicações</span><span class="sort-icon" id="si-doe_data">↕</span></th>
             <th colspan="3">NOTIFICAÇÕES</th>
           </tr>
         </thead>
@@ -27039,7 +27039,7 @@ function renderDoe(pubs) {
     const linkHtml = p.link_doe
       ? `<br><a href="${esc(p.link_doe)}" target="_blank" class="link-soe" style="font-size:10px">Ver publicação</a>`
       : '';
-    return `<div style="line-height:1.6"><span style="font-size:12px;font-weight:700;color:#0369a1">${dt}</span>${linkHtml}</div>`;
+    return `<div style="line-height:1.6"><span style="font-size:12px;font-weight:700;color:#111">${dt}</span>${linkHtml}</div>`;
   }).join('');
   return `<td style="vertical-align:top;padding:6px">${html}</td>`;
 }
@@ -27154,7 +27154,14 @@ function ordenarERendar() {
     return p.length === 3 ? new Date(p[2], p[1]-1, p[0]).getTime() : 0;
   }
   const sorted = [...dadosFiltrados].sort((a, b) => {
-    let va = a[col], vb = b[col];
+    let va = col === 'doe_data' ? ((a.doe_publicacoes && a.doe_publicacoes.length) ? a.doe_publicacoes[0].data_publicacao : '') : a[col];
+    let vb = col === 'doe_data' ? ((b.doe_publicacoes && b.doe_publicacoes.length) ? b.doe_publicacoes[0].data_publicacao : '') : b[col];
+    if (col === 'doe_data') {
+      if (!va && !vb) return 0;
+      if (!va) return asc ? 1 : -1;
+      if (!vb) return asc ? -1 : 1;
+      return asc ? va.localeCompare(vb) : vb.localeCompare(va);
+    }
     if (numCols.has(col)) {
       va = va === null || va === undefined || va === '' ? -Infinity : Number(va);
       vb = vb === null || vb === undefined || vb === '' ? -Infinity : Number(vb);
