@@ -312,13 +312,23 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
   </ul>
   <p style="margin:0 0 12px">Os <strong>números de dias</strong> em cada coluna mostram quanto tempo o processo levou (ou está levando) em cada fase. Quanto maior o número, mais tempo esse processo ficou parado naquela etapa. As cores ajudam a identificar rapidamente os casos mais demorados: <span style="color:#16a34a;font-weight:600">verde</span> para processos ágeis, <span style="color:#ea580c;font-weight:600">laranja/vermelho</span> para os mais demorados.</p>
 
-  <h3 style="font-size:15px;font-weight:700;color:#1a2e44;margin:24px 0 8px">3. Como é feita a busca no Diário Oficial?</h3>
+  <h3 style="font-size:15px;font-weight:700;color:#1a2e44;margin:24px 0 8px">3. Como são calculadas as médias dos quadros?</h3>
+  <p style="margin:0 0 12px">No topo da página há quadros com o número de processos em cada etapa e uma <strong>média de dias</strong> abaixo. Essa média responde à pergunta: <em>"quanto tempo um processo normalmente leva nessa fase?"</em></p>
+  <p style="margin:0 0 6px">Algumas regras importantes:</p>
+  <ul style="margin:0 0 12px;padding-left:20px">
+    <li style="margin-bottom:6px"><strong>Quais processos entram no cálculo:</strong> apenas os tipos <em>Autorização para Perfuração</em> e <em>Direito de Uso para Poço Tubular</em> — os dois tipos de outorga de poço tubular. Outros tipos de requerimento não entram, pois têm prazos muito diferentes e distorceriam a média.</li>
+    <li style="margin-bottom:6px"><strong>Como a média de cada etapa é calculada:</strong> o sistema soma os dias que todos os processos de poço já levaram naquela fase e divide pelo total — independente de onde o processo está hoje. Ou seja, um processo que já foi concluído e ficou 30 dias na fila ainda conta para a média da etapa "Na Fila".</li>
+    <li style="margin-bottom:6px"><strong>Outorga publicada — média total:</strong> conta os dias desde a abertura do requerimento até a data de publicação no DOE, não até hoje. Isso reflete o tempo real que o processo levou do início ao fim.</li>
+    <li style="margin-bottom:6px"><strong>Cores na tabela:</strong> cada número de dias na tabela é colorido comparando com a média daquela coluna. <span style="color:#16a34a;font-weight:600">Verde</span> = mais rápido que a média. <span style="color:#b45309;font-weight:600">Amarelo/laranja</span> = próximo da média. <span style="color:#dc2626;font-weight:600">Vermelho</span> = bem acima da média, ou seja, o processo está demorando mais do que o normal.</li>
+  </ul>
+
+  <h3 style="font-size:15px;font-weight:700;color:#1a2e44;margin:24px 0 8px">4. Como é feita a busca no Diário Oficial?</h3>
   <p style="margin:0 0 12px">O <strong>Diário Oficial do Estado de São Paulo (DOE-SP)</strong> é publicado diariamente em formato digital. A SP-ÁGUAS publica nele as outorgas concedidas — é essa publicação que dá validade jurídica à outorga.</p>
   <p style="margin:0 0 12px">A cada ciclo, o sistema pesquisa automaticamente os últimos <strong>5 dias úteis</strong> do DOE-SP, utilizando a API oficial do Diário Oficial. A busca é feita no caderno da SP-ÁGUAS, que é a seção do DOE onde as outorgas são publicadas.</p>
   <p style="margin:0 0 12px">Cada requerimento tem um <strong>código de identificação único</strong> (ex: <code style="background:#f1f5f9;padding:1px 5px;border-radius:3px;font-size:13px">20260002445-NZO</code>). O sistema procura esse código dentro do texto de cada publicação do DOE. Quando encontra, registra a data da publicação e o link direto para consulta.</p>
   <p style="margin:0 0 12px">Requerimentos com status de resultado (Deferida, Indeferida) que ainda não apareceram no DOE mostram <strong>FINALIZADO</strong> nas colunas — isso significa que a decisão já foi tomada na SP-ÁGUAS, mas a publicação no DOE ainda não foi localizada pelo sistema (o DOE-SP disponibiliza publicações via API somente a partir de dezembro de 2023; processos anteriores não são indexados).</p>
 
-  <h3 style="font-size:15px;font-weight:700;color:#1a2e44;margin:24px 0 8px">4. Como os dados são publicados aqui?</h3>
+  <h3 style="font-size:15px;font-weight:700;color:#1a2e44;margin:24px 0 8px">5. Como os dados são publicados aqui?</h3>
   <p style="margin:0 0 12px">Após cada ciclo de coleta, o sistema gera automaticamente esta página e a publica no <strong>GitHub Pages</strong> — um serviço de hospedagem gratuito que mantém o link sempre atualizado. Não é necessário nenhum servidor próprio.</p>
   <p style="margin:0 0 12px">O processo completo — desde o login no portal SP-ÁGUAS até a atualização desta página — leva em média <strong>5 a 10 minutos</strong>. Após esse tempo, basta recarregar a página para ver os dados mais recentes.</p>
 
