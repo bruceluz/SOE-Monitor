@@ -292,7 +292,37 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
 
 </main>
 
+<section style="max-width:860px;margin:48px auto 60px;padding:0 24px;font-family:'Segoe UI',sans-serif;color:#333;line-height:1.8">
+  <h2 style="font-size:20px;font-weight:700;color:#1a2e44;border-bottom:2px solid #e2e8f0;padding-bottom:10px;margin-bottom:24px">Como funciona o monitoramento</h2>
 
+  <h3 style="font-size:15px;font-weight:700;color:#1a2e44;margin:24px 0 8px">1. De onde vêm os dados dos requerimentos?</h3>
+  <p style="margin:0 0 12px">Todos os requerimentos exibidos na tabela são lidos diretamente do <strong>portal SP-ÁGUAS</strong> (outorga.spaguas.sp.gov.br), que é o sistema oficial da Secretaria de Meio Ambiente do Estado de São Paulo para controle de outorgas de água.</p>
+  <p style="margin:0 0 12px">O sistema acessa o portal automaticamente <strong>4 vezes por dia</strong> (8h, 11h, 15h e 17h, de segunda a sexta), faz login com as credenciais da General Water e lê o status atualizado de cada requerimento — exatamente como um colaborador faria manualmente, mas de forma automática.</p>
+  <p style="margin:0 0 12px">A cada ciclo, são capturados: o <strong>status atual</strong> de cada processo (Protocolo, Na Fila, Em Processamento, Resultado...), as <strong>datas</strong> de cada etapa, os dados do <strong>requerente</strong> (CNPJ, telefone, e-mail) e eventuais <strong>notificações</strong> em aberto que exijam resposta.</p>
+
+  <h3 style="font-size:15px;font-weight:700;color:#1a2e44;margin:24px 0 8px">2. O que significa cada etapa?</h3>
+  <p style="margin:0 0 6px">O processo de outorga passa por quatro fases:</p>
+  <ul style="margin:0 0 12px;padding-left:20px">
+    <li style="margin-bottom:6px"><strong>Protocolo</strong> — o requerimento foi aberto e está aguardando ser chamado para análise.</li>
+    <li style="margin-bottom:6px"><strong>Na Fila</strong> — entrou na fila de análise técnica. Ainda não foi atribuído a um analista.</li>
+    <li style="margin-bottom:6px"><strong>Em Processamento</strong> — um analista já está analisando o processo.</li>
+    <li style="margin-bottom:6px"><strong>Resultado</strong> — a SP-ÁGUAS emitiu uma decisão (deferido, indeferido ou outro resultado).</li>
+    <li style="margin-bottom:6px"><strong>Outorga publicada</strong> — a outorga foi publicada no Diário Oficial do Estado (DOE-SP), o que representa a conclusão oficial e legal do processo.</li>
+  </ul>
+  <p style="margin:0 0 12px">Os <strong>números de dias</strong> em cada coluna mostram quanto tempo o processo levou (ou está levando) em cada fase. Quanto maior o número, mais tempo esse processo ficou parado naquela etapa. As cores ajudam a identificar rapidamente os casos mais demorados: <span style="color:#16a34a;font-weight:600">verde</span> para processos ágeis, <span style="color:#ea580c;font-weight:600">laranja/vermelho</span> para os mais demorados.</p>
+
+  <h3 style="font-size:15px;font-weight:700;color:#1a2e44;margin:24px 0 8px">3. Como é feita a busca no Diário Oficial?</h3>
+  <p style="margin:0 0 12px">O <strong>Diário Oficial do Estado de São Paulo (DOE-SP)</strong> é publicado diariamente em formato digital. A SP-ÁGUAS publica nele as outorgas concedidas — é essa publicação que dá validade jurídica à outorga.</p>
+  <p style="margin:0 0 12px">A cada ciclo, o sistema pesquisa automaticamente os últimos <strong>5 dias úteis</strong> do DOE-SP, utilizando a API oficial do Diário Oficial. A busca é feita no caderno da SP-ÁGUAS, que é a seção do DOE onde as outorgas são publicadas.</p>
+  <p style="margin:0 0 12px">Cada requerimento tem um <strong>código de identificação único</strong> (ex: <code style="background:#f1f5f9;padding:1px 5px;border-radius:3px;font-size:13px">20260002445-NZO</code>). O sistema procura esse código dentro do texto de cada publicação do DOE. Quando encontra, registra a data da publicação e o link direto para consulta.</p>
+  <p style="margin:0 0 12px">Requerimentos com status de resultado (Deferida, Indeferida) que ainda não apareceram no DOE mostram <strong>FINALIZADO</strong> nas colunas — isso significa que a decisão já foi tomada na SP-ÁGUAS, mas a publicação no DOE ainda não foi localizada pelo sistema (o DOE-SP disponibiliza publicações via API somente a partir de dezembro de 2023; processos anteriores não são indexados).</p>
+
+  <h3 style="font-size:15px;font-weight:700;color:#1a2e44;margin:24px 0 8px">4. Como os dados são publicados aqui?</h3>
+  <p style="margin:0 0 12px">Após cada ciclo de coleta, o sistema gera automaticamente esta página e a publica no <strong>GitHub Pages</strong> — um serviço de hospedagem gratuito que mantém o link sempre atualizado. Não é necessário nenhum servidor próprio.</p>
+  <p style="margin:0 0 12px">O processo completo — desde o login no portal SP-ÁGUAS até a atualização desta página — leva em média <strong>5 a 10 minutos</strong>. Após esse tempo, basta recarregar a página para ver os dados mais recentes.</p>
+
+  <p style="margin:32px 0 0;font-size:12px;color:#94a3b8;border-top:1px solid #e2e8f0;padding-top:16px">Sistema desenvolvido para uso interno da General Water. Os dados refletem o estado do portal SP-ÁGUAS no momento da última atualização.</p>
+</section>
 
 <script>
 const DADOS = [
