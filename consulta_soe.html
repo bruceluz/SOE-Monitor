@@ -26872,7 +26872,7 @@ function badgeStatus(s) {
     'Na fila': 'b-nafila',
     'Protocolo': 'b-protocolo',
   };
-  if (s && (s.includes('Resultado') || s.includes('Deferida') || s.includes('Indeferida'))) {
+  if (s && (s === 'Outorga publicada' || s.includes('Resultado') || s.includes('Deferida') || s.includes('Indeferida'))) {
     return `<span class="badge b-resultado">Outorga publicada</span>`;
   }
   const cls = map[s] || 'b-outro';
