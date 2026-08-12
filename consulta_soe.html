@@ -28277,6 +28277,7 @@ function renderTabela(dados) {
     const doePubs = r.doe_publicacoes && r.doe_publicacoes.length ? r.doe_publicacoes : null;
     const statusEfetivo = doePubs ? 'Outorga publicada' : r.status;
     const doeDt = doePubs ? new Date(doePubs[0].data_publicacao) : null;
+    const finalizado = !!(doePubs || (r.status && (r.status.includes('Resultado') || r.status.includes('Deferida') || r.status.includes('Indeferida'))));
 
     function diasEntre(dtInicio, dtFim) {
       const a = parseDMY(dtInicio);
@@ -28299,10 +28300,10 @@ function renderTabela(dados) {
       <td class="td-emp"><a href="${url}" target="_blank" class="link-soe">${esc(empNome)}</a>${cnpjHtml}</td>
       <td class="td-tipo">${esc(r.tipo || '—')}</td>
       <td>${badgeStatus(statusEfetivo)}</td>
-      ${diasDataCell(diasTotalEfetivo, r.data_protocolo, 'dias_total', false, !!doePubs)}
-      ${diasDataCell(r.dias_protocolo, r.data_protocolo, 'dias_protocolo', undefined, !!doePubs)}
-      ${diasDataCell(r.dias_fila, r.data_fila, 'dias_fila', undefined, !!doePubs)}
-      ${diasDataCell(diasProcEfetivo, r.data_processamento, 'dias_processamento', undefined, !!doePubs)}
+      ${diasDataCell(diasTotalEfetivo, r.data_protocolo, 'dias_total', false, finalizado)}
+      ${diasDataCell(r.dias_protocolo, r.data_protocolo, 'dias_protocolo', undefined, finalizado)}
+      ${diasDataCell(r.dias_fila, r.data_fila, 'dias_fila', undefined, finalizado)}
+      ${diasDataCell(diasProcEfetivo, r.data_processamento, 'dias_processamento', undefined, finalizado)}
       <td style="font-size:11px;white-space:nowrap"><a href="${portalUrl}" target="_blank" class="link-soe">${esc(r.codigo)}</a></td>
       ${renderDoe(r.doe_publicacoes, r.status)}
       ${renderNotifs(r.notificacoes)}
