@@ -26898,17 +26898,26 @@ function renderTabela(dados) {
     const portalUrl = `https://outorga.spaguas.sp.gov.br/Portal/MeusRequerimentos/RequerimentosSubmetidos/${r.emp_id}`;
     const cnpjHtml = r.req_cnpj ? `<br><span style="font-size:10px;color:#333;font-weight:400">${esc(r.req_cnpj)}</span>` : '';
 
-    // Se tem publicacao DOE: status = Outorga publicada, dias_total = protocolo->DOE
+    // Se tem publicacao DOE: recalcula etapas usando data DOE como fim
     const doePubs = r.doe_publicacoes && r.doe_publicacoes.length ? r.doe_publicacoes : null;
     const statusEfetivo = doePubs ? 'Outorga publicada' : r.status;
-    let diasTotalEfetivo = r.dias_total;
-    if (doePubs && r.data_protocolo) {
-      const prot = parseDMY(r.data_protocolo);
-      const doeDt = new Date(doePubs[0].data_publicacao); // yyyy-mm-dd
-      if (prot && !isNaN(doeDt)) {
-        diasTotalEfetivo = Math.round((doeDt - prot) / 86400000);
-      }
+    const doeDt = doePubs ? new Date(doePubs[0].data_publicacao) : null;
+
+    function diasEntre(dtInicio, dtFim) {
+      const a = parseDMY(dtInicio);
+      if (!a || !dtFim || isNaN(dtFim)) return null;
+      return Math.round((dtFim - a) / 86400000);
     }
+
+    // DIAS TOTAIS: protocolo → DOE (ou valor original)
+    const diasTotalEfetivo = (doeDt && r.data_protocolo)
+      ? diasEntre(r.data_protocolo, doeDt)
+      : r.dias_total;
+
+    // PROCESSAMENTO: se tem DOE mas sem data_processado, para na data DOE
+    const diasProcEfetivo = (doeDt && r.data_processamento && !r.data_processado)
+      ? diasEntre(r.data_processamento, doeDt)
+      : r.dias_processamento;
 
     return `<tr>
       <td style="text-align:center;font-size:11px;color:#aaa;font-weight:600;white-space:nowrap">${i+1}</td>
@@ -26918,7 +26927,7 @@ function renderTabela(dados) {
       ${diasDataCell(diasTotalEfetivo, r.data_protocolo, 'dias_total', false)}
       ${diasDataCell(r.dias_protocolo, r.data_protocolo, 'dias_protocolo')}
       ${diasDataCell(r.dias_fila, r.data_fila, 'dias_fila')}
-      ${diasDataCell(r.dias_processamento, r.data_processamento, 'dias_processamento')}
+      ${diasDataCell(diasProcEfetivo, r.data_processamento, 'dias_processamento')}
       <td style="font-size:11px;white-space:nowrap"><a href="${portalUrl}" target="_blank" class="link-soe">${esc(r.codigo)}</a></td>
       ${renderDoe(r.doe_publicacoes)}
       ${renderNotifs(r.notificacoes)}
