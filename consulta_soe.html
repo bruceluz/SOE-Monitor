@@ -97,6 +97,7 @@ td{padding:9px 13px;border-bottom:1px solid #eaedf5;vertical-align:middle;color:
 .b-outro{background:#f5f5f5;color:#757575;border:1px solid #e0e0e0}
 .b-pendente{background:#fef3c7;color:#92400e;border:1px solid #fde68a}
 .b-recebida{background:#dcfce7;color:#15803d;border:1px solid #86efac}
+.b-doe{background:#e0f2fe;color:#0369a1;border:1px solid #7dd3fc}
 .link-soe{color:var(--gw-blue);text-decoration:none;font-size:11px;font-weight:600}
 .link-soe:hover{color:var(--gw-blue-dark);text-decoration:underline}
 .vazio{color:#aaa;padding:48px;text-align:center;font-size:14px}
@@ -278,6 +279,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
             <th onclick="ordenar('dias_fila')" style="text-align:center">FILA<br><span style="font-size:9px;font-weight:400;opacity:.7">dias / data</span><span class="sort-icon" id="si-dias_fila">↕</span></th>
             <th onclick="ordenar('dias_processamento')" style="text-align:center">PROCESSAMENTO<br><span style="font-size:9px;font-weight:400;opacity:.7">dias / data</span><span class="sort-icon" id="si-dias_processamento">↕</span></th>
             <th onclick="ordenar('codigo')">IDENTIFICAÇÃO<span class="sort-icon" id="si-codigo">↕</span></th>
+            <th style="text-align:center">DOE<br><span style="font-size:9px;font-weight:400;opacity:.7">publicações</span></th>
             <th colspan="3">NOTIFICAÇÕES</th>
           </tr>
         </thead>
@@ -1903,7 +1905,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "17e4cfbe-d7bb-48ff-166d-08ded115ff8c",
+        "data_publicacao": "2026-07-02",
+        "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 1 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-1-de-julho-de-2026-202607011133112141958027",
+        "encontrado_em": "12/08/2026 15:34",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "18234",
@@ -1948,7 +1961,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "17e4cfbe-d7bb-48ff-166d-08ded115ff8c",
+        "data_publicacao": "2026-07-02",
+        "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 1 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-1-de-julho-de-2026-202607011133112141958027",
+        "encontrado_em": "12/08/2026 15:34",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "18234",
@@ -1989,7 +2013,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "17e4cfbe-d7bb-48ff-166d-08ded115ff8c",
+        "data_publicacao": "2026-07-02",
+        "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 1 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-1-de-julho-de-2026-202607011133112141958027",
+        "encontrado_em": "12/08/2026 15:34",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "18234",
@@ -2026,7 +2061,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "17e4cfbe-d7bb-48ff-166d-08ded115ff8c",
+        "data_publicacao": "2026-07-02",
+        "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 1 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-1-de-julho-de-2026-202607011133112141958027",
+        "encontrado_em": "12/08/2026 15:34",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "18234",
@@ -2071,7 +2117,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "17e4cfbe-d7bb-48ff-166d-08ded115ff8c",
+        "data_publicacao": "2026-07-02",
+        "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 1 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-1-de-julho-de-2026-202607011133112141958027",
+        "encontrado_em": "12/08/2026 15:34",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "18234",
@@ -2112,7 +2169,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "17e4cfbe-d7bb-48ff-166d-08ded115ff8c",
+        "data_publicacao": "2026-07-02",
+        "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 1 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-1-de-julho-de-2026-202607011133112141958027",
+        "encontrado_em": "12/08/2026 15:34",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "18234",
@@ -2153,7 +2221,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "17e4cfbe-d7bb-48ff-166d-08ded115ff8c",
+        "data_publicacao": "2026-07-02",
+        "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 1 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-1-de-julho-de-2026-202607011133112141958027",
+        "encontrado_em": "12/08/2026 15:34",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "18234",
@@ -2194,7 +2273,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "17e4cfbe-d7bb-48ff-166d-08ded115ff8c",
+        "data_publicacao": "2026-07-02",
+        "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 1 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-1-de-julho-de-2026-202607011133112141958027",
+        "encontrado_em": "12/08/2026 15:34",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "36887",
@@ -10571,7 +10661,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "a14d945a-9f22-4531-f348-08decae7a5b3",
+        "data_publicacao": "2026-06-16",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 15 DE JUNHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-15-de-junho-de-2026-202606151133112141916581",
+        "encontrado_em": "12/08/2026 15:36",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "51451",
@@ -10616,7 +10717,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "a14d945a-9f22-4531-f348-08decae7a5b3",
+        "data_publicacao": "2026-06-16",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 15 DE JUNHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-15-de-junho-de-2026-202606151133112141916581",
+        "encontrado_em": "12/08/2026 15:36",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "51451",
@@ -10657,7 +10769,18 @@ const DADOS = [
     "dias_processamento": 149,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "a14d945a-9f22-4531-f348-08decae7a5b3",
+        "data_publicacao": "2026-06-16",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 15 DE JUNHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-15-de-junho-de-2026-202606151133112141916581",
+        "encontrado_em": "12/08/2026 15:36",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "51451",
@@ -10698,7 +10821,18 @@ const DADOS = [
     "dias_processamento": 149,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "a14d945a-9f22-4531-f348-08decae7a5b3",
+        "data_publicacao": "2026-06-16",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 15 DE JUNHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-15-de-junho-de-2026-202606151133112141916581",
+        "encontrado_em": "12/08/2026 15:36",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "35079",
@@ -13754,7 +13888,18 @@ const DADOS = [
     "dias_processamento": 128,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "92bfcdac-610b-4d07-8062-08ded05ee4db",
+        "data_publicacao": "2026-07-08",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 7 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-7-de-julho-de-2026-202607071133112141971657",
+        "encontrado_em": "12/08/2026 15:33",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "210015",
@@ -13795,7 +13940,18 @@ const DADOS = [
     "dias_processamento": 128,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "92bfcdac-610b-4d07-8062-08ded05ee4db",
+        "data_publicacao": "2026-07-08",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 7 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-7-de-julho-de-2026-202607071133112141971657",
+        "encontrado_em": "12/08/2026 15:33",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "3874",
@@ -14254,7 +14410,18 @@ const DADOS = [
     "dias_processamento": 492,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "f99d7e30-a806-444f-81ae-08debccfe19a",
+        "data_publicacao": "2026-06-01",
+        "titulo": "PORTARIA DO CHEFE DE DIVISÃO DO ALTO DO TIETÊ, DE 29 DE MAIO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n° 6134 de 02/06/88, do Decreto Estadual nº 32.955 de 07/02/91, alterado pelo Decreto Estadual nº 63.261, de 09/03/18, da Estadual n° 7.663 de 30/12/91, do Decreto Estadual nº 63.262, de 09/03/18, da Portaria DAEE nº 1630, de 30/05/17, reti-ratificada em 2",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-chefe-de-divisao-do-alto-do-tiete-de-29-de-maio-de-2026-20260529113311132141882448",
+        "encontrado_em": "12/08/2026 15:37",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "167286",
@@ -23971,7 +24138,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "684d98e1-7b25-48d6-0b73-08dee341e021",
+        "data_publicacao": "2026-07-22",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 21 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-21-de-julho-de-2026-202607211133112141994458",
+        "encontrado_em": "12/08/2026 15:32",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "47373",
@@ -24012,7 +24190,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "684d98e1-7b25-48d6-0b73-08dee341e021",
+        "data_publicacao": "2026-07-22",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 21 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-21-de-julho-de-2026-202607211133112141994458",
+        "encontrado_em": "12/08/2026 15:32",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "47373",
@@ -24053,7 +24242,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "684d98e1-7b25-48d6-0b73-08dee341e021",
+        "data_publicacao": "2026-07-22",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 21 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-21-de-julho-de-2026-202607211133112141994458",
+        "encontrado_em": "12/08/2026 15:32",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "47373",
@@ -24094,7 +24294,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "684d98e1-7b25-48d6-0b73-08dee341e021",
+        "data_publicacao": "2026-07-22",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 21 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-21-de-julho-de-2026-202607211133112141994458",
+        "encontrado_em": "12/08/2026 15:32",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "47373",
@@ -24131,7 +24342,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "684d98e1-7b25-48d6-0b73-08dee341e021",
+        "data_publicacao": "2026-07-22",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 21 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-21-de-julho-de-2026-202607211133112141994458",
+        "encontrado_em": "12/08/2026 15:32",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "47373",
@@ -24168,7 +24390,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "684d98e1-7b25-48d6-0b73-08dee341e021",
+        "data_publicacao": "2026-07-22",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 21 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-21-de-julho-de-2026-202607211133112141994458",
+        "encontrado_em": "12/08/2026 15:32",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "47373",
@@ -24205,7 +24438,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "684d98e1-7b25-48d6-0b73-08dee341e021",
+        "data_publicacao": "2026-07-22",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 21 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-21-de-julho-de-2026-202607211133112141994458",
+        "encontrado_em": "12/08/2026 15:32",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "47373",
@@ -24246,7 +24490,18 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "doe_publicacoes": [
+      {
+        "pub_id": "684d98e1-7b25-48d6-0b73-08dee341e021",
+        "data_publicacao": "2026-07-22",
+        "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 21 DE JULHO DE 2026",
+        "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+        "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-21-de-julho-de-2026-202607211133112141994458",
+        "encontrado_em": "12/08/2026 15:32",
+        "via": "CNPJ"
+      }
+    ]
   },
   {
     "emp_id": "37726",
@@ -26767,7 +27022,7 @@ function badgeStatus(s) {
 function renderTabela(dados) {
   const tbody = document.getElementById('tbody');
   if (!dados.length) {
-    tbody.innerHTML = '<tr><td colspan="12" class="vazio">Nenhum requerimento encontrado com esses filtros.</td></tr>';
+    tbody.innerHTML = '<tr><td colspan="13" class="vazio">Nenhum requerimento encontrado com esses filtros.</td></tr>';
     document.getElementById('resultsInfo').innerHTML = '';
     return;
   }
@@ -26792,6 +27047,7 @@ function renderTabela(dados) {
       ${diasDataCell(r.dias_fila, r.data_fila, 'dias_fila')}
       ${diasDataCell(r.dias_processamento, r.data_processamento, 'dias_processamento')}
       <td style="font-size:11px;white-space:nowrap"><a href="${portalUrl}" target="_blank" class="link-soe">${esc(r.codigo)}</a></td>
+      ${renderDoe(r.doe_publicacoes)}
       ${renderNotifs(r.notificacoes)}
     </tr>`;
   }).join('');
@@ -26875,6 +27131,21 @@ function atualizarMedias() {
     dias_processamento: sProc.media,
     dias_total:         sTotalAll.media,
   };
+}
+
+function renderDoe(pubs) {
+  if (!pubs || !pubs.length) return '<td style="color:#ccc;font-size:11px;text-align:center;vertical-align:middle">—</td>';
+  const html = pubs.map(p => {
+    const raw = p.data_publicacao || '';
+    const dt = raw.length === 10
+      ? raw.slice(8,10) + '/' + raw.slice(5,7) + '/' + raw.slice(0,4)
+      : esc(raw) || '—';
+    if (p.link_doe) {
+      return `<a href="${esc(p.link_doe)}" target="_blank" class="link-soe" style="font-size:11px;font-weight:700;display:block;white-space:nowrap">📰 ${dt}</a>`;
+    }
+    return `<span style="font-size:11px;font-weight:700;color:#0369a1">📰 ${dt}</span>`;
+  }).join('<br>');
+  return `<td style="vertical-align:top;padding:6px">${html}</td>`;
 }
 
 function renderNotifs(notifs) {
@@ -27012,16 +27283,18 @@ function statusExport(s) {
 }
 
 function _exportCols() {
-  const cols    = ['emp_nome','req_cnpj','tipo','_status','dias_total','dias_protocolo','data_protocolo','dias_fila','data_fila','dias_processamento','data_processamento','codigo','_notif_resumo'];
-  const headers = ['CLIENTE','CNPJ','TIPO','STATUS','DIAS TOTAIS','DIAS(PROTOCOLO)','DATA PROTOCOLO','DIAS(FILA)','DATA FILA','DIAS(PROCESSAMENTO)','DATA PROCESSAMENTO','IDENTIFICAÇÃO','NOTIFICAÇÕES'];
+  const cols    = ['emp_nome','req_cnpj','tipo','_status','dias_total','dias_protocolo','data_protocolo','dias_fila','data_fila','dias_processamento','data_processamento','codigo','_doe_links','_notif_resumo'];
+  const headers = ['CLIENTE','CNPJ','TIPO','STATUS','DIAS TOTAIS','DIAS(PROTOCOLO)','DATA PROTOCOLO','DIAS(FILA)','DATA FILA','DIAS(PROCESSAMENTO)','DATA PROCESSAMENTO','IDENTIFICAÇÃO','DOE (links)','NOTIFICAÇÕES'];
   return {cols, headers};
 }
 
 function _exportRow(r, cols) {
   const notifResumo = (r.notificacoes||[]).map(n=>`Rec:${n.data_notif||'-'} Prazo:${n.prazo||'-'} ${n.situacao||'-'}`).join(' | ');
+  const doeLinks    = (r.doe_publicacoes||[]).map(p=>p.link_doe || p.data_publicacao || '').filter(Boolean).join(' | ');
   return cols.map(c => {
     if (c === '_notif_resumo') return notifResumo;
-    if (c === '_status') return statusExport(r.status);
+    if (c === '_status')       return statusExport(r.status);
+    if (c === '_doe_links')    return doeLinks;
     return r[c] || '';
   });
 }
@@ -27044,7 +27317,7 @@ function exportarXLSX() {
   const {cols, headers} = _exportCols();
   const rows=[headers, ...dadosFiltrados.map(r => _exportRow(r, cols))];
   const ws=XLSX.utils.aoa_to_sheet(rows);
-  ws['!cols']=[{wch:45},{wch:20},{wch:22},{wch:20},{wch:12},{wch:14},{wch:12},{wch:14},{wch:12},{wch:18},{wch:16},{wch:14},{wch:50}];
+  ws['!cols']=[{wch:45},{wch:20},{wch:22},{wch:20},{wch:12},{wch:14},{wch:12},{wch:14},{wch:12},{wch:18},{wch:16},{wch:14},{wch:60},{wch:50}];
   const wb=XLSX.utils.book_new();
   XLSX.utils.book_append_sheet(wb,ws,'SOE');
   XLSX.writeFile(wb,'consulta_soe_'+new Date().toISOString().slice(0,10)+'.xlsx');
