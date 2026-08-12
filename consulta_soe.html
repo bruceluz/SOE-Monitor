@@ -27078,9 +27078,10 @@ function aplicarFiltros() {
 
   dadosFiltrados = DADOS.filter(r => {
     if (status) {
+      const statusEfetivo = (r.doe_publicacoes && r.doe_publicacoes.length) ? 'Outorga publicada' : r.status;
       if (status === '__resultado__') {
-        if (!r.status || (!r.status.includes('Resultado') && !r.status.includes('Deferida') && !r.status.includes('Indeferida'))) return false;
-      } else if (r.status !== status) return false;
+        if (statusEfetivo !== 'Outorga publicada' && (!r.status || (!r.status.includes('Resultado') && !r.status.includes('Deferida') && !r.status.includes('Indeferida')))) return false;
+      } else if (statusEfetivo !== status) return false;
     }
     if (tipo && r.tipo !== tipo) return false;
     if (notif) {
