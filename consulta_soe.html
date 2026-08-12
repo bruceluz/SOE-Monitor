@@ -27639,8 +27639,11 @@ function diasCell(dias, hasDate, campo) {
   return `<td style="text-align:center;font-weight:700;font-size:14px;color:${color}">${n}</td>`;
 }
 
-function diasDataCell(dias, dt, campo, mostrarData) {
-  if (!dt) return '<td style="color:#aaa;text-align:center;font-size:11px;vertical-align:middle">—</td>';
+function diasDataCell(dias, dt, campo, mostrarData, finalizado) {
+  if (!dt) {
+    if (finalizado) return '<td style="text-align:center;vertical-align:middle;font-size:10px;font-weight:700;color:#14532d;letter-spacing:.5px">FINALIZADO</td>';
+    return '<td style="color:#aaa;text-align:center;font-size:11px;vertical-align:middle">—</td>';
+  }
   const n = Number(dias);
   const color = _heatColor(n, campo);
   const dataLinha = mostrarData === false ? '' : `<br><span style="font-size:10px;color:#333;font-weight:400">${esc(dt)}</span>`;
@@ -27727,10 +27730,10 @@ function renderTabela(dados) {
       <td class="td-emp"><a href="${url}" target="_blank" class="link-soe">${esc(empNome)}</a>${cnpjHtml}</td>
       <td class="td-tipo">${esc(r.tipo || '—')}</td>
       <td>${badgeStatus(statusEfetivo)}</td>
-      ${diasDataCell(diasTotalEfetivo, r.data_protocolo, 'dias_total', false)}
-      ${diasDataCell(r.dias_protocolo, r.data_protocolo, 'dias_protocolo')}
-      ${diasDataCell(r.dias_fila, r.data_fila, 'dias_fila')}
-      ${diasDataCell(diasProcEfetivo, r.data_processamento, 'dias_processamento')}
+      ${diasDataCell(diasTotalEfetivo, r.data_protocolo, 'dias_total', false, !!doePubs)}
+      ${diasDataCell(r.dias_protocolo, r.data_protocolo, 'dias_protocolo', undefined, !!doePubs)}
+      ${diasDataCell(r.dias_fila, r.data_fila, 'dias_fila', undefined, !!doePubs)}
+      ${diasDataCell(diasProcEfetivo, r.data_processamento, 'dias_processamento', undefined, !!doePubs)}
       <td style="font-size:11px;white-space:nowrap"><a href="${portalUrl}" target="_blank" class="link-soe">${esc(r.codigo)}</a></td>
       ${renderDoe(r.doe_publicacoes)}
       ${renderNotifs(r.notificacoes)}
