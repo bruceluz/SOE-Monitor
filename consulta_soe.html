@@ -26977,6 +26977,20 @@ function atualizarMedias() {
   const processadoRef = srcRef.filter(r => r.status === 'Processado');
   const resultadoRef  = srcRef.filter(r => r.status && (r.status.includes('Resultado') || r.status.includes('Deferida') || r.status.includes('Indeferida')));
 
+  // Outorga publicada: inclui itens com doe_publicacoes (srcRef), usando
+  // dias_total = protocolo → data DOE (não "até hoje")
+  const vistosDoe = new Set();
+  const outorgaRef = [];
+  resultadoRef.forEach(r => { vistosDoe.add(r.codigo); outorgaRef.push(r); });
+  srcRef.filter(r => r.doe_publicacoes && r.doe_publicacoes.length).forEach(r => {
+    if (vistosDoe.has(r.codigo)) return;
+    vistosDoe.add(r.codigo);
+    const doeDt = new Date(r.doe_publicacoes[0].data_publicacao);
+    const a = parseDMY(r.data_protocolo);
+    const diasEfetivo = (a && doeDt && !isNaN(doeDt)) ? Math.round((doeDt - a) / 86400000) : r.dias_total;
+    outorgaRef.push(Object.assign({}, r, {dias_total: diasEfetivo}));
+  });
+
   // Média e mediana por etapa consideram TODOS os processos de poço que já
   // passaram por ali, independente do status atual — respondem "quanto tempo
   // uma requisição normalmente fica nessa etapa", não só quem está parado lá agora.
@@ -26985,7 +26999,7 @@ function atualizarMedias() {
   const sProc      = stats('dias_processamento', srcRef);
   const sTotal     = stats('dias_total',     processadoRef);
   const sTotalAll  = stats('dias_total',     srcRef);
-  const sResultado = stats('dias_total',     resultadoRef);
+  const sResultado = stats('dias_total',     outorgaRef);
   sTotal.mediana     = sTotalAll.mediana;
   sResultado.mediana = sTotalAll.mediana;
 
@@ -26995,7 +27009,7 @@ function atualizarMedias() {
   const pocosFila       = srcRef.filter(r => r.status === 'Na fila').length;
   const pocosProc       = srcRef.filter(r => r.status === 'Em processamento').length;
   const pocosProcessado = processadoRef.length;
-  const pocosResultado  = resultadoRef.length;
+  const pocosResultado  = outorgaRef.length;
 
   set('media-prot',      sProt,      pocosProt);
   set('media-fila',      sFila,      pocosFila);
@@ -27173,10 +27187,23 @@ function _exportCols() {
 function _exportRow(r, cols) {
   const notifResumo = (r.notificacoes||[]).map(n=>`Rec:${n.data_notif||'-'} Prazo:${n.prazo||'-'} ${n.situacao||'-'}`).join(' | ');
   const doeLinks    = (r.doe_publicacoes||[]).map(p=>p.link_doe || p.data_publicacao || '').filter(Boolean).join(' | ');
+  // DOE overrides — mesma lógica do render HTML
+  const doePubs = r.doe_publicacoes && r.doe_publicacoes.length ? r.doe_publicacoes : null;
+  const doeDt   = doePubs ? new Date(doePubs[0].data_publicacao) : null;
+  function _dias(dtInicio, dtFim) {
+    const a = parseDMY(dtInicio);
+    if (!a || !dtFim || isNaN(dtFim)) return '';
+    return Math.round((dtFim - a) / 86400000);
+  }
+  const statusExp   = doePubs ? 'Outorga publicada' : statusExport(r.status);
+  const diasTotExp  = (doeDt && r.data_protocolo) ? _dias(r.data_protocolo, doeDt) : (r.dias_total || '');
+  const diasProcExp = (doeDt && r.data_processamento && !r.data_processado) ? _dias(r.data_processamento, doeDt) : (r.dias_processamento || '');
   return cols.map(c => {
-    if (c === '_notif_resumo') return notifResumo;
-    if (c === '_status')       return statusExport(r.status);
-    if (c === '_doe_links')    return doeLinks;
+    if (c === '_notif_resumo')      return notifResumo;
+    if (c === '_status')            return statusExp;
+    if (c === '_doe_links')         return doeLinks;
+    if (c === 'dias_total')         return diasTotExp;
+    if (c === 'dias_processamento') return diasProcExp;
     return r[c] || '';
   });
 }
