@@ -28322,6 +28322,13 @@ function renderTabela(dados) {
     const doeDt = doePubs ? new Date(doePubs[0].data_publicacao) : null;
     const finalizado = !!(doePubs || (r.status && (r.status.includes('Resultado') || r.status.includes('Deferida') || r.status.includes('Indeferida'))));
 
+    // Fases já superadas: mostra FINALIZADO em datas vazias de etapas anteriores
+    const _ord = {'Protocolo': 0, 'Na fila': 1, 'Em processamento': 2, 'Processado': 3};
+    const _si  = _ord[r.status] !== undefined ? _ord[r.status] : 99;
+    const finProt = finalizado || _si > 0;
+    const finFila = finalizado || _si > 1;
+    const finProc = finalizado || _si > 2;
+
     function diasEntre(dtInicio, dtFim) {
       const a = parseDMY(dtInicio);
       if (!a || !dtFim || isNaN(dtFim)) return null;
@@ -28344,9 +28351,9 @@ function renderTabela(dados) {
       <td class="td-tipo">${esc(r.tipo || '—')}</td>
       <td>${badgeStatus(statusEfetivo)}</td>
       ${diasDataCell(diasTotalEfetivo, r.data_protocolo, 'dias_total', false, finalizado)}
-      ${diasDataCell(r.dias_protocolo, r.data_protocolo, 'dias_protocolo', undefined, finalizado)}
-      ${diasDataCell(r.dias_fila, r.data_fila, 'dias_fila', undefined, finalizado)}
-      ${diasDataCell(diasProcEfetivo, r.data_processamento, 'dias_processamento', undefined, finalizado)}
+      ${diasDataCell(r.dias_protocolo, r.data_protocolo, 'dias_protocolo', undefined, finProt)}
+      ${diasDataCell(r.dias_fila, r.data_fila, 'dias_fila', undefined, finFila)}
+      ${diasDataCell(diasProcEfetivo, r.data_processamento, 'dias_processamento', undefined, finProc)}
       <td style="font-size:11px;white-space:nowrap"><a href="${portalUrl}" target="_blank" class="link-soe">${esc(r.codigo)}</a></td>
       ${renderDoe(r.doe_publicacoes, r.status)}
       ${renderNotifs(r.notificacoes)}
