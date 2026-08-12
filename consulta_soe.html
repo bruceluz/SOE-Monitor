@@ -28408,7 +28408,7 @@ function atualizarMedias() {
 function renderDoe(pubs, status) {
   if (!pubs || !pubs.length) {
     const finalizado = status && (status.includes('Resultado') || status.includes('Deferida') || status.includes('Indeferida'));
-    if (finalizado) return '<td style="text-align:center;vertical-align:middle;font-size:10px;font-weight:700;color:#14532d;letter-spacing:.5px">FINALIZADO</td>';
+    if (finalizado) return '<td style="text-align:center;vertical-align:middle"><span style="font-size:12px;font-weight:700;color:#111">FINALIZADO</span></td>';
     return '<td style="color:#ccc;font-size:11px;text-align:center;vertical-align:middle">—</td>';
   }
   const html = pubs.map(p => {
