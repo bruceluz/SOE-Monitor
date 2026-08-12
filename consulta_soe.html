@@ -28509,10 +28509,20 @@ function aplicarFiltros() {
 }
 
 function filtrarStatus(s) {
-  filtroStatusAtivo = s;
-  document.getElementById('filtroStatus').value = s;
+  // Clique nos cards do topo: selecao exclusiva (substitui multi)
+  filtroStatusSet.clear();
+  document.querySelectorAll('.sf-btn').forEach(b => { b.style.background='#e5e7eb'; b.style.color='#374151'; });
+  if (s) {
+    filtroStatusSet.add(s);
+    const btn = document.querySelector(`.sf-btn[data-val="${s}"]`);
+    if (btn) { btn.style.background='#3D397E'; btn.style.color='#fff'; }
+  } else {
+    const todosBtn = document.querySelector('.sf-btn[data-val=""]');
+    if (todosBtn) { todosBtn.style.background='#3D397E'; todosBtn.style.color='#fff'; }
+  }
+  const cnt = document.getElementById('status-count');
+  if (cnt) cnt.textContent = filtroStatusSet.size > 0 ? `(${filtroStatusSet.size} selecionado${filtroStatusSet.size>1?'s':''})` : '';
 
-  // Highlight stat card
   document.querySelectorAll('.stat,.media-box').forEach(el => el.classList.remove('ativo'));
   if (s === '') document.getElementById('stat-all')?.classList.add('ativo');
   else if (s === 'Protocolo') { document.getElementById('stat-prot')?.classList.add('ativo'); document.getElementById('stat-prot-m')?.classList.add('ativo'); }
@@ -28526,10 +28536,15 @@ function filtrarStatus(s) {
 
 function limparFiltros() {
   filtroStatusAtivo = '';
+  filtroStatusSet.clear();
   document.getElementById('busca').value = '';
-  document.getElementById('filtroStatus').value = '';
   document.getElementById('filtroTipo').value = '';
   document.getElementById('filtroNotif').value = '';
+  document.querySelectorAll('.sf-btn').forEach(b => { b.style.background='#e5e7eb'; b.style.color='#374151'; });
+  const todosBtn = document.querySelector('.sf-btn[data-val=""]');
+  if (todosBtn) { todosBtn.style.background='#3D397E'; todosBtn.style.color='#fff'; }
+  const cnt = document.getElementById('status-count');
+  if (cnt) cnt.textContent = '';
   document.querySelectorAll('.stat,.media-box').forEach(el => el.classList.remove('ativo'));
   aplicarFiltros();
 }
