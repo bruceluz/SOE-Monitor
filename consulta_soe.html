@@ -27071,7 +27071,8 @@ function esc(s) {
 
 function aplicarFiltros() {
   const busca = document.getElementById('busca').value.toLowerCase();
-  const status = document.getElementById('filtroStatus').value || filtroStatusAtivo;
+  const status = document.getElementById('filtroStatus').value;
+  if (status !== filtroStatusAtivo) filtroStatusAtivo = status;
   const tipo = document.getElementById('filtroTipo').value;
   const notif = document.getElementById('filtroNotif').value;
 
