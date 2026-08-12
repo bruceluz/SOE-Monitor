@@ -27036,11 +27036,11 @@ function renderDoe(pubs) {
     const dt = raw.length === 10
       ? raw.slice(8,10) + '/' + raw.slice(5,7) + '/' + raw.slice(0,4)
       : esc(raw) || '—';
-    if (p.link_doe) {
-      return `<a href="${esc(p.link_doe)}" target="_blank" class="link-soe" style="font-size:11px;font-weight:700;display:block;white-space:nowrap">📰 ${dt}</a>`;
-    }
-    return `<span style="font-size:11px;font-weight:700;color:#0369a1">📰 ${dt}</span>`;
-  }).join('<br>');
+    const linkHtml = p.link_doe
+      ? `<br><a href="${esc(p.link_doe)}" target="_blank" class="link-soe" style="font-size:10px">Ver publicação</a>`
+      : '';
+    return `<div style="line-height:1.6"><span style="font-size:12px;font-weight:700;color:#0369a1">${dt}</span>${linkHtml}</div>`;
+  }).join('');
   return `<td style="vertical-align:top;padding:6px">${html}</td>`;
 }
 
