@@ -28415,9 +28415,9 @@ function parseDMY(s) {
 
 function atualizarMedias() {
   const src = DADOS;
-  // � (�) cobre casos onde a acentuacao foi corrompida na coleta
-  const isRef = r => r.tipo && (/perfura[çc�][ãa�]o/i.test(r.tipo) || /direito de uso para po[çc�]o/i.test(r.tipo));
-  const srcRef = src.filter(r => isRef(r) && r.status !== 'Cancelado' && !r.excluir_media);
+  // Considera TODOS os registros de "Autorizacao para perfuracao e Direito de Uso para Poco Tubular"
+  const isRef = r => r.tipo && /autori[zs]a[çc�][ãa�]o para perfura[çc�][ãa�]o e direito de uso para po[çc�]o tubular/i.test(r.tipo);
+  const srcRef = src.filter(isRef);
 
   function stats(campo, subset) {
     const data = subset !== undefined ? subset : srcRef;
