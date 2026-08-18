@@ -212,6 +212,7 @@ footer{text-align:center;padding:16px 20px 20px;color:#aaa;font-size:11px;letter
         </div>
         <div style="font-size:18px;font-weight:700;color:#475569" id="media-total-geral">—</div>
         <div style="font-size:9px;color:#9ca3af;margin-top:1px" id="media-total-geral-tipo"></div>
+        <div style="font-size:9px;color:#9ca3af;margin-top:1px" id="media-total-geral-todos"></div>
       </div>
     </div>
     </div>
@@ -28589,7 +28590,9 @@ function atualizarMedias() {
   const elTG = document.getElementById('media-total-geral');
   if (elTG) elTG.textContent = sTotalGeral.media !== null ? sTotalGeral.media + ' d' : '—';
   const elTGTipo = document.getElementById('media-total-geral-tipo');
-  if (elTGTipo) elTGTipo.textContent = sTotalGeral.n ? sTotalGeral.n + ' finalizados' : '';
+  if (elTGTipo) elTGTipo.textContent = sTotalGeral.n ? sTotalGeral.n + (sTotalGeral.n !== 1 ? ' poços' : ' poço') : '';
+  const elTGTodos = document.getElementById('media-total-geral-todos');
+  if (elTGTodos) elTGTodos.textContent = '';
   _medias = {
     dias_protocolo:     sProt.media,
     dias_fila:          sFila.media,
