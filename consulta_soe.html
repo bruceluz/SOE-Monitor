@@ -28691,8 +28691,9 @@ function limparFiltros() {
 }
 
 function ordenar(col) {
+  const _numCols = new Set(['dias_total','dias_protocolo','dias_fila','dias_processamento','dias_processado','dias_ultima_notif','qtd_notificacoes']);
   if (sortCol === col) sortAsc = !sortAsc;
-  else { sortCol = col; sortAsc = true; }
+  else { sortCol = col; sortAsc = !_numCols.has(col); }
 
   document.querySelectorAll('thead th').forEach(th => th.classList.remove('sorted'));
   const icons = document.querySelectorAll('.sort-icon');
