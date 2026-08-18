@@ -28417,7 +28417,7 @@ function atualizarMedias() {
   const src = DADOS;
   // Considera TODOS os registros de "Autorizacao para perfuracao e Direito de Uso para Poco Tubular"
   const isRef = r => r.tipo && /autori[zs]a[çc�][ãa�]o para perfura[çc�][ãa�]o e direito de uso para po[çc�]o tubular/i.test(r.tipo);
-  const srcRef = src.filter(isRef);
+  const srcRef = src.filter(r => isRef(r) && r.status !== 'Cancelado');
 
   function stats(campo, subset) {
     const data = subset !== undefined ? subset : srcRef;
