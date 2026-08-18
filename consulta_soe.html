@@ -3326,7 +3326,9 @@ const DADOS = [
         "encontrado_em": "12/08/2026 17:48",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_fila": true,
+    "excluir_media_processamento": true
   },
   {
     "emp_id": "28398",
@@ -3613,7 +3615,8 @@ const DADOS = [
         "encontrado_em": "12/08/2026 17:25",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_processamento": true
   },
   {
     "emp_id": "68507",
@@ -6275,7 +6278,8 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "excluir_media_fila": true
   },
   {
     "emp_id": "63781",
@@ -6312,7 +6316,8 @@ const DADOS = [
     "dias_processamento": null,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "excluir_media_protocolo": true
   },
   {
     "emp_id": "193404",
@@ -6364,7 +6369,8 @@ const DADOS = [
         "encontrado_em": "12/08/2026 17:21",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_processamento": true
   },
   {
     "emp_id": "193404",
@@ -6416,7 +6422,8 @@ const DADOS = [
         "encontrado_em": "12/08/2026 17:21",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_processamento": true
   },
   {
     "emp_id": "193404",
@@ -6468,7 +6475,8 @@ const DADOS = [
         "encontrado_em": "12/08/2026 17:21",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_processamento": true
   },
   {
     "emp_id": "193404",
@@ -8234,7 +8242,8 @@ const DADOS = [
         "encontrado_em": "12/08/2026 16:55",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_fila": true
   },
   {
     "emp_id": "7420",
@@ -8286,7 +8295,8 @@ const DADOS = [
         "encontrado_em": "12/08/2026 16:55",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_fila": true
   },
   {
     "emp_id": "46064",
@@ -9115,7 +9125,8 @@ const DADOS = [
         "encontrado_em": "12/08/2026 17:36",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_processamento": true
   },
   {
     "emp_id": "80140",
@@ -9167,7 +9178,8 @@ const DADOS = [
         "encontrado_em": "12/08/2026 17:36",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_processamento": true
   },
   {
     "emp_id": "80140",
@@ -9699,7 +9711,8 @@ const DADOS = [
         "encontrado_em": "12/08/2026 17:18",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_fila": true
   },
   {
     "emp_id": "569",
@@ -9875,7 +9888,8 @@ const DADOS = [
     "dias_processamento": 303,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "excluir_media_protocolo": true
   },
   {
     "emp_id": "67077",
@@ -10238,7 +10252,9 @@ const DADOS = [
         "encontrado_em": "12/08/2026 17:48",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_fila": true,
+    "excluir_media_processamento": true
   },
   {
     "emp_id": "151614",
@@ -11795,7 +11811,8 @@ const DADOS = [
         "encontrado_em": "12/08/2026 16:58",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_protocolo": true
   },
   {
     "emp_id": "34226",
@@ -13840,7 +13857,8 @@ const DADOS = [
     "dias_processamento": 163,
     "dias_processado": null,
     "data_ultima_notif": "",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "excluir_media_fila": true
   },
   {
     "emp_id": "6222",
@@ -15005,7 +15023,8 @@ const DADOS = [
         "encontrado_em": "12/08/2026 17:23",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_processamento": true
   },
   {
     "emp_id": "194020",
@@ -17897,7 +17916,8 @@ const DADOS = [
     "dias_processamento": 190,
     "dias_processado": null,
     "data_ultima_notif": "26/02/2026",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "excluir_media_fila": true
   },
   {
     "emp_id": "126493",
@@ -17990,7 +18010,9 @@ const DADOS = [
         "encontrado_em": "12/08/2026 17:26",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media_fila": true,
+    "excluir_media_processamento": true
   },
   {
     "emp_id": "126493",
@@ -28508,7 +28530,7 @@ function atualizarMedias() {
   // Média e mediana por etapa consideram TODOS os processos de poço que já
   // passaram por ali, independente do status atual — respondem "quanto tempo
   // uma requisição normalmente fica nessa etapa", não só quem está parado lá agora.
-  const sProt      = stats('dias_protocolo', srcRef);
+  const sProt      = stats('dias_protocolo', srcRef.filter(r => !r.excluir_media_protocolo));
   const sFila      = stats('dias_fila',      srcRef.filter(r => !r.excluir_media_fila));
   const sProc      = stats('dias_processamento', srcRef.filter(r => !r.excluir_media_processamento));
   const sTotal     = stats('dias_total',     processadoRef);
