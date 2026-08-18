@@ -11768,7 +11768,8 @@ const DADOS = [
         "encontrado_em": "12/08/2026 16:58",
         "via": "identificacao"
       }
-    ]
+    ],
+    "excluir_media": true
   },
   {
     "emp_id": "34226",
@@ -28416,7 +28417,7 @@ function atualizarMedias() {
   const src = DADOS;
   // � (�) cobre casos onde a acentuacao foi corrompida na coleta
   const isRef = r => r.tipo && (/perfura[çc�][ãa�]o/i.test(r.tipo) || /direito de uso para po[çc�]o/i.test(r.tipo));
-  const srcRef = src.filter(r => isRef(r) && r.status !== 'Cancelado');
+  const srcRef = src.filter(r => isRef(r) && r.status !== 'Cancelado' && !r.excluir_media);
 
   function stats(campo, subset) {
     const data = subset !== undefined ? subset : srcRef;
