@@ -7355,7 +7355,8 @@ const DADOS = [
     "dias_processamento": 10,
     "dias_processado": null,
     "data_ultima_notif": "28/07/2026",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "excluir_media_fila": true
   },
   {
     "emp_id": "19215",
@@ -7392,7 +7393,8 @@ const DADOS = [
     "dias_processamento": 10,
     "dias_processado": null,
     "data_ultima_notif": "28/07/2026",
-    "dias_ultima_notif": null
+    "dias_ultima_notif": null,
+    "excluir_media_fila": true
   },
   {
     "emp_id": "93967",
@@ -28467,7 +28469,7 @@ function atualizarMedias() {
   // passaram por ali, independente do status atual — respondem "quanto tempo
   // uma requisição normalmente fica nessa etapa", não só quem está parado lá agora.
   const sProt      = stats('dias_protocolo', srcRef);
-  const sFila      = stats('dias_fila',      srcRef);
+  const sFila      = stats('dias_fila',      srcRef.filter(r => !r.excluir_media_fila));
   const sProc      = stats('dias_processamento', srcRef);
   const sTotal     = stats('dias_total',     processadoRef);
   const sTotalAll  = stats('dias_total',     srcRef);
