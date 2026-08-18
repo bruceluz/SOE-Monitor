@@ -28317,7 +28317,7 @@ let sortAsc = true;
 let dadosFiltrados = [...DADOS];
 let _medias = {};
 
-const _isPocoNovo = t => !!t && /autori[zs]a[çc][ãa]o para perfura[çc][ãa]o e direito de uso para po[çc]o tubular/i.test(t);
+const _isPocoNovo = t => !!t && /^autori[zs]a[çc�][ãa�]o para perfura[çc�][ãa�]o e direito de uso para po[çc�]o tubular$/i.test(t.trim());
 
 // Popular select de tipos
 const tipos = [...new Set(DADOS.map(r => r.tipo).filter(Boolean))].sort();
