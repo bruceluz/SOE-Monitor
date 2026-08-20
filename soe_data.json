@@ -443,7 +443,18 @@
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "696c51ec-c409-4d2d-5feb-08de7a3093de",
+          "data_publicacao": "2026-03-09",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 6 DE MARÇO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-6-de-marco-de-2026-202603061133112141688104",
+          "encontrado_em": "20/08/2026 17:12",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "197340",
@@ -492,7 +503,18 @@
       "dias_processamento": 316,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c8c91a79-dcf4-4239-dece-08de3bbdad7d",
+          "data_publicacao": "2025-12-16",
+          "titulo": "DESPACHO DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 15 DE DEZEMBRO DE 2025",
+          "resumo": "Declaração sobre Viabilidade de Implantação de Empreendimento Tendo em vista o disposto na Portaria DAEE n. 1.630, de 30/05/2017 e Deliberação SP-ÁGUAS n. 07, de 26/06/2025, as declarações e as informações, apresentado por MARCOS ANTONIO DA SILVA, CPF/CNPJ 109.470.298-69, declaramos viável a implant",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-do-gerente-de-outorga-da-sp-aguas-de-15-de-dezembro-de-2025-202512151133112041528873",
+          "encontrado_em": "20/08/2026 17:16",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "14474",
@@ -717,7 +739,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "f5a82f67-4b2e-4347-9470-08dd12ee8ef2",
+          "data_publicacao": "2024-12-03",
+          "titulo": "PORTARIA DO DIRETOR DE REGULAÇÃO DA SP ÁGUAS, DE 29 DE NOVEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-diretor-de-regulacao-da-sp-aguas-de-29-de-novembro-de-2024-20241202113211215751424",
+          "encontrado_em": "12/08/2026 18:02",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "14474",
@@ -758,7 +791,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "f5a82f67-4b2e-4347-9470-08dd12ee8ef2",
+          "data_publicacao": "2024-12-03",
+          "titulo": "PORTARIA DO DIRETOR DE REGULAÇÃO DA SP ÁGUAS, DE 29 DE NOVEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-diretor-de-regulacao-da-sp-aguas-de-29-de-novembro-de-2024-20241202113211215751424",
+          "encontrado_em": "12/08/2026 18:02",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "14474",
@@ -799,7 +843,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "f5a82f67-4b2e-4347-9470-08dd12ee8ef2",
+          "data_publicacao": "2024-12-03",
+          "titulo": "PORTARIA DO DIRETOR DE REGULAÇÃO DA SP ÁGUAS, DE 29 DE NOVEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-diretor-de-regulacao-da-sp-aguas-de-29-de-novembro-de-2024-20241202113211215751424",
+          "encontrado_em": "12/08/2026 18:02",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "14474",
@@ -840,7 +895,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "8cb384bf-97a0-41d1-410e-08dcea4958c8",
+          "data_publicacao": "2024-10-21",
+          "titulo": "PORTARIA DO PRESIDENTE DA AGÊNCIA DE ÁGUAS DO ESTADO DE SÃO PAULO – SP ÁGUAS, DE 18 DE OUTUBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-presidente-da-agencia-de-aguas-do-estado-de-sao-paulo-sp-aguas-de-18-de-outubro-de-2024-20241018113211215663690",
+          "encontrado_em": "12/08/2026 18:08",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "51195",
@@ -979,7 +1045,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "8cb384bf-97a0-41d1-410e-08dcea4958c8",
+          "data_publicacao": "2024-10-21",
+          "titulo": "PORTARIA DO PRESIDENTE DA AGÊNCIA DE ÁGUAS DO ESTADO DE SÃO PAULO – SP ÁGUAS, DE 18 DE OUTUBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-presidente-da-agencia-de-aguas-do-estado-de-sao-paulo-sp-aguas-de-18-de-outubro-de-2024-20241018113211215663690",
+          "encontrado_em": "12/08/2026 18:08",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "51195",
@@ -1205,7 +1282,18 @@
       "dias_processamento": 463,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "a326ef1e-7593-43fa-f7c3-08de2c299029",
+          "data_publicacao": "2025-11-26",
+          "titulo": "PORTARIA DO CHEFE DE DIVISÃO DO ALTO TIETÊ, DE 25 DE NOVEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-chefe-de-divisao-do-alto-tiete-de-25-de-novembro-de-2025-20251125113211132141485516",
+          "encontrado_em": "20/08/2026 17:17",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "134057",
@@ -1254,7 +1342,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c2bf57d5-3769-4d31-42d1-08de2c2779db",
+          "data_publicacao": "2025-11-26",
+          "titulo": "PORTARIA DO CHEFE DE DIVISÃO DO ALTO TIETÊ, DE 25 DE NOVEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-chefe-de-divisao-do-alto-tiete-de-25-de-novembro-de-2025-20251125113211132141485507",
+          "encontrado_em": "20/08/2026 17:17",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "112",
@@ -1762,7 +1861,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "10705955-7e42-4fa5-dff0-08dd461c91e7",
+          "data_publicacao": "2025-02-07",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 6 DE FEVEREIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-6-de-fevereiro-de-2025-20250206113211215867782",
+          "encontrado_em": "12/08/2026 17:53",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "18234",
@@ -1889,7 +1999,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "17e4cfbe-d7bb-48ff-166d-08ded115ff8c",
+          "data_publicacao": "2026-07-02",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 1 DE JULHO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-1-de-julho-de-2026-202607011133112141958027",
+          "encontrado_em": "20/08/2026 17:08",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "18234",
@@ -1930,7 +2051,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "17e4cfbe-d7bb-48ff-166d-08ded115ff8c",
+          "data_publicacao": "2026-07-02",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 1 DE JULHO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-1-de-julho-de-2026-202607011133112141958027",
+          "encontrado_em": "20/08/2026 17:08",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "18234",
@@ -1971,7 +2103,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "8223dd62-6369-40c3-721a-08deaf69e72b",
+          "data_publicacao": "2026-05-15",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 14 DE MAIO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-14-de-maio-de-2026-202605141133112141843766",
+          "encontrado_em": "20/08/2026 17:10",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "36887",
@@ -2960,7 +3103,18 @@
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
       "excluir_media_fila": true,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "f73a88a1-1f7c-453c-559e-08dd62626172",
+          "data_publicacao": "2025-03-14",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 13 DE MARÇO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-13-de-marco-de-2025-20250313113211215945190",
+          "encontrado_em": "12/08/2026 17:48",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "28398",
@@ -3140,7 +3294,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "8c46eba9-cfee-4910-7d4f-08dd1af7c5fd",
+          "data_publicacao": "2024-12-16",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 13 DE DEZEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-13-de-dezembro-de-2024-20241213113211215777818",
+          "encontrado_em": "12/08/2026 18:00",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "28398",
@@ -3181,7 +3346,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "8c46eba9-cfee-4910-7d4f-08dd1af7c5fd",
+          "data_publicacao": "2024-12-16",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 13 DE DEZEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-13-de-dezembro-de-2024-20241213113211215777818",
+          "encontrado_em": "12/08/2026 18:00",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "28398",
@@ -3223,7 +3399,18 @@
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "36bc8bcd-8f19-4dad-8307-08dde1aa93bb",
+          "data_publicacao": "2025-09-19",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 18 DE SETEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-18-de-setembro-de-2025-202509181132112141349068",
+          "encontrado_em": "20/08/2026 17:20",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "68507",
@@ -3313,7 +3500,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "46305778-0295-48a6-18c6-08dcea493b50",
+          "data_publicacao": "2024-10-18",
+          "titulo": "PORTARIA  PRESIDENTE DA AGÊNCIA DE ÁGUAS DO ESTADO DE SÃO PAULO – SP ÁGUAS, DE 17 DE OUTUBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-presidente-da-agencia-de-aguas-do-estado-de-sao-paulo-sp-aguas-de-17-de-outubro-de-2024-20241017113211215661402",
+          "encontrado_em": "12/08/2026 18:09",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "68507",
@@ -4412,7 +4610,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c9b6c402-b440-4955-26c0-08dd3fc8ef77",
+          "data_publicacao": "2025-02-03",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 31 DE JANEIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-31-de-janeiro-de-2025-20250131113211215855017",
+          "encontrado_em": "12/08/2026 17:54",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "13721",
@@ -4490,7 +4699,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "338e954c-caa9-4c82-1a0c-08dd1af7a1a9",
+          "data_publicacao": "2024-12-23",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 20 DE DEZEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-20-de-dezembro-de-2024-20241220113211215792420",
+          "encontrado_em": "12/08/2026 17:59",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "13721",
@@ -4580,7 +4800,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c71ebeb7-3037-4871-78f0-08de6954f8a7",
+          "data_publicacao": "2026-02-12",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 11 DE FEVEREIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-11-de-fevereiro-de-2026-202602111133112141632018",
+          "encontrado_em": "20/08/2026 17:14",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "13721",
@@ -4629,7 +4860,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c71ebeb7-3037-4871-78f0-08de6954f8a7",
+          "data_publicacao": "2026-02-12",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 11 DE FEVEREIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-11-de-fevereiro-de-2026-202602111133112141632018",
+          "encontrado_em": "20/08/2026 17:14",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "13721",
@@ -4678,7 +4920,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c71ebeb7-3037-4871-78f0-08de6954f8a7",
+          "data_publicacao": "2026-02-12",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 11 DE FEVEREIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-11-de-fevereiro-de-2026-202602111133112141632018",
+          "encontrado_em": "20/08/2026 17:14",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "13721",
@@ -4727,7 +4980,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c71ebeb7-3037-4871-78f0-08de6954f8a7",
+          "data_publicacao": "2026-02-12",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 11 DE FEVEREIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-11-de-fevereiro-de-2026-202602111133112141632018",
+          "encontrado_em": "20/08/2026 17:14",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "13721",
@@ -4776,7 +5040,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c71ebeb7-3037-4871-78f0-08de6954f8a7",
+          "data_publicacao": "2026-02-12",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 11 DE FEVEREIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-11-de-fevereiro-de-2026-202602111133112141632018",
+          "encontrado_em": "20/08/2026 17:14",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "13721",
@@ -4825,7 +5100,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c71ebeb7-3037-4871-78f0-08de6954f8a7",
+          "data_publicacao": "2026-02-12",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 11 DE FEVEREIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-11-de-fevereiro-de-2026-202602111133112141632018",
+          "encontrado_em": "20/08/2026 17:14",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "13721",
@@ -4874,7 +5160,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c71ebeb7-3037-4871-78f0-08de6954f8a7",
+          "data_publicacao": "2026-02-12",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 11 DE FEVEREIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-11-de-fevereiro-de-2026-202602111133112141632018",
+          "encontrado_em": "20/08/2026 17:14",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "213773",
@@ -5001,7 +5298,18 @@
       "dias_processamento": 559,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "84debb03-e81d-4d94-8704-08de04f668b6",
+          "data_publicacao": "2025-10-07",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 6 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-6-de-outubro-de-2025-202510061132112141385325",
+          "encontrado_em": "20/08/2026 17:19",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "19962",
@@ -5079,7 +5387,18 @@
       "dias_processamento": 559,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "84debb03-e81d-4d94-8704-08de04f668b6",
+          "data_publicacao": "2025-10-07",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 6 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-6-de-outubro-de-2025-202510061132112141385325",
+          "encontrado_em": "20/08/2026 17:19",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "19962",
@@ -5169,7 +5488,18 @@
       "dias_processamento": 498,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "84debb03-e81d-4d94-8704-08de04f668b6",
+          "data_publicacao": "2025-10-07",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 6 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-6-de-outubro-de-2025-202510061132112141385325",
+          "encontrado_em": "20/08/2026 17:19",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "125620",
@@ -5431,7 +5761,18 @@
       "dias_processamento": 491,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "7a973ec1-92b0-43ce-6599-08de5783e53b",
+          "data_publicacao": "2026-01-20",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 19 DE JANEIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-19-de-janeiro-de-2026-202601191133112141578315",
+          "encontrado_em": "20/08/2026 17:15",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "24079",
@@ -5472,7 +5813,18 @@
       "dias_processamento": 491,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "7a973ec1-92b0-43ce-6599-08de5783e53b",
+          "data_publicacao": "2026-01-20",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 19 DE JANEIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-19-de-janeiro-de-2026-202601191133112141578315",
+          "encontrado_em": "20/08/2026 17:15",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "63781",
@@ -5636,7 +5988,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "8d604375-ef3b-4af1-45a4-08dd0d599dd0",
+          "data_publicacao": "2024-11-26",
+          "titulo": "PORTARIA DO DIRETOR DE REGULAÇÃO DA SP ÁGUAS, DE 22 DE NOVEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-diretor-de-regulacao-da-sp-aguas-de-22-de-novembro-de-2024-20241125113211215735689",
+          "encontrado_em": "12/08/2026 18:04",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "63781",
@@ -5677,7 +6040,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "8d604375-ef3b-4af1-45a4-08dd0d599dd0",
+          "data_publicacao": "2024-11-26",
+          "titulo": "PORTARIA DO DIRETOR DE REGULAÇÃO DA SP ÁGUAS, DE 22 DE NOVEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-diretor-de-regulacao-da-sp-aguas-de-22-de-novembro-de-2024-20241125113211215735689",
+          "encontrado_em": "12/08/2026 18:04",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "63781",
@@ -5726,7 +6100,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "6f75e38b-d3b8-4d7b-8d4f-08dcf9fe32bd",
+          "data_publicacao": "2024-11-19",
+          "titulo": "DESPACHO DA BACIA DO MÉDIO TIETÊ, DE 18 DE NOVEMBRO DE 2024",
+          "resumo": "Declaração de Viabilidade Tendo em vista o disposto na Portaria DAEE n. 1.630, de 30/05/2017, as declarações e as informações , apresentado por CONDOMÍNIO CIVIL DO SHOPPING CENTER IGUATEMI CAMPINAS, CPF/CNPJ 58.997.354/0001-32, na Diretoria da Bacia do Médio Tietê - BMT, declaramos viável a concepçã",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-da-bacia-do-medio-tiete-de-18-de-novembro-de-2024-2024111811321112204722633",
+          "encontrado_em": "12/08/2026 18:05",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "63781",
@@ -5775,7 +6160,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "6f75e38b-d3b8-4d7b-8d4f-08dcf9fe32bd",
+          "data_publicacao": "2024-11-19",
+          "titulo": "DESPACHO DA BACIA DO MÉDIO TIETÊ, DE 18 DE NOVEMBRO DE 2024",
+          "resumo": "Declaração de Viabilidade Tendo em vista o disposto na Portaria DAEE n. 1.630, de 30/05/2017, as declarações e as informações , apresentado por CONDOMÍNIO CIVIL DO SHOPPING CENTER IGUATEMI CAMPINAS, CPF/CNPJ 58.997.354/0001-32, na Diretoria da Bacia do Médio Tietê - BMT, declaramos viável a concepçã",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-da-bacia-do-medio-tiete-de-18-de-novembro-de-2024-2024111811321112204722633",
+          "encontrado_em": "12/08/2026 18:05",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "63781",
@@ -5893,7 +6289,18 @@
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "f68d6855-ebb3-4545-3f25-08de1195399d",
+          "data_publicacao": "2025-10-23",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 22 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-22-de-outubro-de-2025-202510221132112141422774",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "193404",
@@ -5935,7 +6342,18 @@
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "f68d6855-ebb3-4545-3f25-08de1195399d",
+          "data_publicacao": "2025-10-23",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 22 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-22-de-outubro-de-2025-202510221132112141422774",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "193404",
@@ -5977,7 +6395,18 @@
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "f68d6855-ebb3-4545-3f25-08de1195399d",
+          "data_publicacao": "2025-10-23",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 22 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-22-de-outubro-de-2025-202510221132112141422774",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "193404",
@@ -6018,7 +6447,18 @@
       "dias_processamento": 246,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c5c58af6-9e6e-4bf0-e2e4-08de599e56cf",
+          "data_publicacao": "2026-01-23",
+          "titulo": "PORTARIA  DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 22 DE JANEIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-22-de-janeiro-de-2026-202601221133112141585465",
+          "encontrado_em": "20/08/2026 17:15",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "19858",
@@ -6239,7 +6679,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "2ac99763-aabf-4662-8e93-08de4c41fd78",
+          "data_publicacao": "2026-01-06",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 5 DE JANEIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-5-de-janeiro-de-2026-202601051133112141555278",
+          "encontrado_em": "20/08/2026 17:16",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "165859",
@@ -6280,7 +6731,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "a0010c3c-ae7c-4dd8-3c9f-08dd51b7002c",
+          "data_publicacao": "2025-02-21",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 20 DE FEVEREIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-20-de-fevereiro-de-2025-20250220113211215901322",
+          "encontrado_em": "12/08/2026 17:51",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "165859",
@@ -6321,7 +6783,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "a0010c3c-ae7c-4dd8-3c9f-08dd51b7002c",
+          "data_publicacao": "2025-02-21",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 20 DE FEVEREIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-20-de-fevereiro-de-2025-20250220113211215901322",
+          "encontrado_em": "12/08/2026 17:51",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "165859",
@@ -6362,7 +6835,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "a0010c3c-ae7c-4dd8-3c9f-08dd51b7002c",
+          "data_publicacao": "2025-02-21",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 20 DE FEVEREIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-20-de-fevereiro-de-2025-20250220113211215901322",
+          "encontrado_em": "12/08/2026 17:51",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "165859",
@@ -6403,7 +6887,18 @@
       "dias_processamento": 505,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "919eca08-8187-459d-532f-08dd8bd8eb93",
+          "data_publicacao": "2025-05-26",
+          "titulo": "DESPACHO BACIA DO ALTO TIETÊ E BAIXADA SANTISTA, DE 14 DE ABRIL DE 2025",
+          "resumo": "Informe de Indeferimento Referência: - Interessado: CONDOMINIO DO SHOPPING FREI CANECA - CNPJ: 11.384.227/0001-02 - Município: São Paulo - Processo SP ÁGUAS: 9916432 Tendo em vista o disposto nas Portarias DAEE n. 1630/2017 e 1631/2017 reti-ratificada em 24/06/2020, e da Portaria DAEE n.º 4008, de 2",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-bacia-do-alto-tiete-e-baixada-santista-de-14-de-abril-de-2025-20250523113211102041097785",
+          "encontrado_em": "20/08/2026 17:24",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "165859",
@@ -6444,7 +6939,18 @@
       "dias_processamento": 505,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "919eca08-8187-459d-532f-08dd8bd8eb93",
+          "data_publicacao": "2025-05-26",
+          "titulo": "DESPACHO BACIA DO ALTO TIETÊ E BAIXADA SANTISTA, DE 14 DE ABRIL DE 2025",
+          "resumo": "Informe de Indeferimento Referência: - Interessado: CONDOMINIO DO SHOPPING FREI CANECA - CNPJ: 11.384.227/0001-02 - Município: São Paulo - Processo SP ÁGUAS: 9916432 Tendo em vista o disposto nas Portarias DAEE n. 1630/2017 e 1631/2017 reti-ratificada em 24/06/2020, e da Portaria DAEE n.º 4008, de 2",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-bacia-do-alto-tiete-e-baixada-santista-de-14-de-abril-de-2025-20250523113211102041097785",
+          "encontrado_em": "20/08/2026 17:24",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "14724",
@@ -6730,7 +7236,18 @@
       "dias_processamento": 528,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "0b75cb27-f697-4bf5-1a0a-08ddf7a340ac",
+          "data_publicacao": "2025-09-22",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 19 DE SETEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-19-de-setembro-de-2025-202509191132112141352010",
+          "encontrado_em": "20/08/2026 17:20",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "19215",
@@ -7166,7 +7683,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "469fd687-bf2d-430f-60a9-08de9add4db4",
+          "data_publicacao": "2026-04-16",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 15 DE ABRIL DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-15-de-abril-de-2026-202604151133112141778544",
+          "encontrado_em": "20/08/2026 17:11",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "16373",
@@ -7207,7 +7735,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "469fd687-bf2d-430f-60a9-08de9add4db4",
+          "data_publicacao": "2026-04-16",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 15 DE ABRIL DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-15-de-abril-de-2026-202604151133112141778544",
+          "encontrado_em": "20/08/2026 17:11",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "51124",
@@ -7692,7 +8231,18 @@
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
       "excluir_media_fila": true,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "62a08088-a71a-45b7-0ff9-08de93fcdb9e",
+          "data_publicacao": "2026-04-07",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 6 DE ABRIL DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-6-de-abril-de-2026-202604061133112141755137",
+          "encontrado_em": "20/08/2026 17:11",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "7420",
@@ -7735,7 +8285,18 @@
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
       "excluir_media_fila": true,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "62a08088-a71a-45b7-0ff9-08de93fcdb9e",
+          "data_publicacao": "2026-04-07",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 6 DE ABRIL DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-6-de-abril-de-2026-202604061133112141755137",
+          "encontrado_em": "20/08/2026 17:11",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "46064",
@@ -8626,7 +9187,18 @@
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "602c8858-9c4a-44b0-3032-08ddae980c96",
+          "data_publicacao": "2025-06-23",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 18 DE JUNHO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-18-de-junho-de-2025-202506181132112141156732",
+          "encontrado_em": "20/08/2026 17:23",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "80140",
@@ -8668,7 +9240,18 @@
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "602c8858-9c4a-44b0-3032-08ddae980c96",
+          "data_publicacao": "2025-06-23",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 18 DE JUNHO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-18-de-junho-de-2025-202506181132112141156732",
+          "encontrado_em": "20/08/2026 17:23",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "80140",
@@ -8885,7 +9468,18 @@
       "dias_processamento": 372,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "421019fe-0989-419e-67b5-08de1b1c89c6",
+          "data_publicacao": "2025-11-14",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS , DE 13 DE NOVEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-13-de-novembro-de-2025-202511131132112141467672",
+          "encontrado_em": "20/08/2026 17:17",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "2142",
@@ -9216,7 +9810,18 @@
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
       "excluir_media_fila": true,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "7eff19f9-841b-49aa-52c3-08de1debcb76",
+          "data_publicacao": "2025-11-13",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 12 DE NOVEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-12-de-novembro-de-2025-202511121132112141464735",
+          "encontrado_em": "20/08/2026 17:17",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "569",
@@ -9640,7 +10245,18 @@
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
       "excluir_media_fila": true,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "f73a88a1-1f7c-453c-559e-08dd62626172",
+          "data_publicacao": "2025-03-14",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 13 DE MARÇO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-13-de-marco-de-2025-20250313113211215945190",
+          "encontrado_em": "12/08/2026 17:48",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "151614",
@@ -9726,7 +10342,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "11f88c24-a21f-4d2a-08c3-08dd0439ce5a",
+          "data_publicacao": "2024-11-21",
+          "titulo": "DESPACHO DO  DIRETOR DE REGULAÇÃO, DE 6 DE NOVEMBRO DE 2024",
+          "resumo": "Declaração Sobre Viabilidade de Implantação de Empreendimento Tendo em vista o disposto nas Portarias DAEE n. 1.630, de 30/05/2017 e Portaria DAEE n. 4008, de 25/06/2024,reti-ratificada pela Portaria DAEE nº 5223, de 19/09/2024 as declarações e as informações, apresentado por Condomínio Shopping Cen",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-do-diretor-de-regulacao-de-6-de-novembro-de-2024-20241119113211204725651",
+          "encontrado_em": "12/08/2026 18:04",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "151614",
@@ -9804,7 +10431,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c9b6c402-b440-4955-26c0-08dd3fc8ef77",
+          "data_publicacao": "2025-02-03",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 31 DE JANEIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-31-de-janeiro-de-2025-20250131113211215855017",
+          "encontrado_em": "12/08/2026 17:54",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "151614",
@@ -10127,7 +10765,18 @@
       "dias_processamento": 372,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "7eff19f9-841b-49aa-52c3-08de1debcb76",
+          "data_publicacao": "2025-11-13",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 12 DE NOVEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-12-de-novembro-de-2025-202511121132112141464735",
+          "encontrado_em": "20/08/2026 17:17",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "9645",
@@ -10450,7 +11099,18 @@
       "dias_processamento": 372,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c50ca88a-bb74-4fd6-1fcc-08de844813f9",
+          "data_publicacao": "2026-03-18",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 17 DE MARÇO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-17-de-marco-de-2026-202603171133112141712013",
+          "encontrado_em": "20/08/2026 17:12",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "40924",
@@ -10491,7 +11151,18 @@
       "dias_processamento": 372,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c50ca88a-bb74-4fd6-1fcc-08de844813f9",
+          "data_publicacao": "2026-03-18",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 17 DE MARÇO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-17-de-marco-de-2026-202603171133112141712013",
+          "encontrado_em": "20/08/2026 17:12",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "40924",
@@ -10532,7 +11203,18 @@
       "dias_processamento": 372,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c50ca88a-bb74-4fd6-1fcc-08de844813f9",
+          "data_publicacao": "2026-03-18",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 17 DE MARÇO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-17-de-marco-de-2026-202603171133112141712013",
+          "encontrado_em": "20/08/2026 17:12",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "40924",
@@ -10573,7 +11255,18 @@
       "dias_processamento": 372,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c50ca88a-bb74-4fd6-1fcc-08de844813f9",
+          "data_publicacao": "2026-03-18",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 17 DE MARÇO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-17-de-marco-de-2026-202603171133112141712013",
+          "encontrado_em": "20/08/2026 17:12",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "51877",
@@ -10790,7 +11483,18 @@
       "dias_processamento": 162,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "a14d945a-9f22-4531-f348-08decae7a5b3",
+          "data_publicacao": "2026-06-16",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 15 DE JUNHO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-15-de-junho-de-2026-202606151133112141916581",
+          "encontrado_em": "20/08/2026 17:09",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "51451",
@@ -10831,7 +11535,18 @@
       "dias_processamento": 162,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "a14d945a-9f22-4531-f348-08decae7a5b3",
+          "data_publicacao": "2026-06-16",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 15 DE JUNHO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-15-de-junho-de-2026-202606151133112141916581",
+          "encontrado_em": "20/08/2026 17:09",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "35077",
@@ -10970,7 +11685,18 @@
       "dias_processamento": 301,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "a2e30aa9-c865-4610-c287-08de7a305c57",
+          "data_publicacao": "2026-04-10",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 9 DE ABRIL DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-9-de-abril-de-2026-202604091133112141764810",
+          "encontrado_em": "20/08/2026 17:11",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "35079",
@@ -11098,7 +11824,18 @@
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
-      "excluir_media_protocolo": true
+      "excluir_media_protocolo": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "581aa6ef-f46f-448e-70d7-08de7a3089ec",
+          "data_publicacao": "2026-03-19",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 18 DE MARÇO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-18-de-marco-de-2026-202603181133112141715338",
+          "encontrado_em": "20/08/2026 17:12",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "34226",
@@ -11226,7 +11963,18 @@
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "00b99cb2-9713-4d03-da2c-08de3be26b7d",
+          "data_publicacao": "2025-12-16",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 15 DE DEZEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-15-de-dezembro-de-2025-202512151133112141528840",
+          "encontrado_em": "20/08/2026 17:16",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "79735",
@@ -12046,7 +12794,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "3180b036-8b23-46fb-6f7d-08dd1e1760cc",
+          "data_publicacao": "2025-01-10",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 9 DE JANEIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-9-de-janeiro-de-2025-20250109113211215813204",
+          "encontrado_em": "12/08/2026 17:57",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "14728",
@@ -12173,7 +12932,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "0b1fd756-0e8b-4884-19bf-08de1c2c5a27",
+          "data_publicacao": "2025-11-07",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 6 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-6-de-outubro-de-2025-202511061132112141452971",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "109507",
@@ -12222,7 +12992,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "a5aae9ea-3fdf-4a74-0fc4-08de5d8b397f",
+          "data_publicacao": "2026-01-28",
+          "titulo": "PORTARIA DO CHEFE DE DIVISÃO DO ALTO TIETÊ, DE 27 DE JANEIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-chefe-de-divisao-do-alto-tiete-de-27-de-janeiro-de-2026-20260127113311132141593816",
+          "encontrado_em": "20/08/2026 17:15",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "109506",
@@ -12717,7 +13498,18 @@
       "dias_processamento": 470,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "7b8aaede-0691-4411-af80-08de12411bb7",
+          "data_publicacao": "2025-10-29",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 28 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-28-de-outubro-de-2025-202510281132112141431076",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "2178",
@@ -12758,7 +13550,18 @@
       "dias_processamento": 470,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "7b8aaede-0691-4411-af80-08de12411bb7",
+          "data_publicacao": "2025-10-29",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 28 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-28-de-outubro-de-2025-202510281132112141431076",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "2178",
@@ -12799,7 +13602,18 @@
       "dias_processamento": 470,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "7b8aaede-0691-4411-af80-08de12411bb7",
+          "data_publicacao": "2025-10-29",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 28 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-28-de-outubro-de-2025-202510281132112141431076",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "2178",
@@ -12840,7 +13654,18 @@
       "dias_processamento": 470,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "7b8aaede-0691-4411-af80-08de12411bb7",
+          "data_publicacao": "2025-10-29",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 28 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-28-de-outubro-de-2025-202510281132112141431076",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "2178",
@@ -12881,7 +13706,18 @@
       "dias_processamento": 470,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "7b8aaede-0691-4411-af80-08de12411bb7",
+          "data_publicacao": "2025-10-29",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 28 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-28-de-outubro-de-2025-202510281132112141431076",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "198740",
@@ -12923,7 +13759,18 @@
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "eb15f38e-90e4-43ef-ca4f-08de6a51f26c",
+          "data_publicacao": "2026-02-13",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 12 DE FEVEREIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-12-de-fevereiro-de-2026-202602121133112141635104",
+          "encontrado_em": "20/08/2026 17:14",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "198740",
@@ -12965,7 +13812,18 @@
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "eb15f38e-90e4-43ef-ca4f-08de6a51f26c",
+          "data_publicacao": "2026-02-13",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 12 DE FEVEREIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-12-de-fevereiro-de-2026-202602121133112141635104",
+          "encontrado_em": "20/08/2026 17:14",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "4576",
@@ -13572,7 +14430,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "a0010c3c-ae7c-4dd8-3c9f-08dd51b7002c",
+          "data_publicacao": "2025-02-21",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 20 DE FEVEREIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-20-de-fevereiro-de-2025-20250220113211215901322",
+          "encontrado_em": "12/08/2026 17:51",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "6222",
@@ -13621,7 +14490,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "a0010c3c-ae7c-4dd8-3c9f-08dd51b7002c",
+          "data_publicacao": "2025-02-21",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 20 DE FEVEREIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-20-de-fevereiro-de-2025-20250220113211215901322",
+          "encontrado_em": "12/08/2026 17:51",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "6222",
@@ -13670,7 +14550,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "a0010c3c-ae7c-4dd8-3c9f-08dd51b7002c",
+          "data_publicacao": "2025-02-21",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 20 DE FEVEREIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-20-de-fevereiro-de-2025-20250220113211215901322",
+          "encontrado_em": "12/08/2026 17:51",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "3066",
@@ -13956,7 +14847,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "9abf8889-0615-44ec-4d26-08dd1e1760cc",
+          "data_publicacao": "2024-12-20",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 19 DE DEZEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-19-de-dezembro-de-2024-20241219113211215789496",
+          "encontrado_em": "12/08/2026 17:59",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "3066",
@@ -14005,7 +14907,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "9abf8889-0615-44ec-4d26-08dd1e1760cc",
+          "data_publicacao": "2024-12-20",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 19 DE DEZEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-19-de-dezembro-de-2024-20241219113211215789496",
+          "encontrado_em": "12/08/2026 17:59",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "3066",
@@ -14337,7 +15250,18 @@
       "dias_processamento": 141,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "92bfcdac-610b-4d07-8062-08ded05ee4db",
+          "data_publicacao": "2026-07-08",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 7 DE JULHO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-7-de-julho-de-2026-202607071133112141971657",
+          "encontrado_em": "20/08/2026 17:08",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "210015",
@@ -14378,7 +15302,18 @@
       "dias_processamento": 141,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "92bfcdac-610b-4d07-8062-08ded05ee4db",
+          "data_publicacao": "2026-07-08",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 7 DE JULHO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-7-de-julho-de-2026-202607071133112141971657",
+          "encontrado_em": "20/08/2026 17:08",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "3874",
@@ -14518,7 +15453,18 @@
       "dias_processado": null,
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "7950bd6b-e904-4650-a521-08dde1aa93bb",
+          "data_publicacao": "2025-10-13",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 10 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-10-de-outubro-de-2025-202510101132112141398837",
+          "encontrado_em": "20/08/2026 17:19",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "194020",
@@ -14854,7 +15800,18 @@
       "dias_processamento": 505,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "f99d7e30-a806-444f-81ae-08debccfe19a",
+          "data_publicacao": "2026-06-01",
+          "titulo": "PORTARIA DO CHEFE DE DIVISÃO DO ALTO DO TIETÊ, DE 29 DE MAIO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n° 6134 de 02/06/88, do Decreto Estadual nº 32.955 de 07/02/91, alterado pelo Decreto Estadual nº 63.261, de 09/03/18, da Estadual n° 7.663 de 30/12/91, do Decreto Estadual nº 63.262, de 09/03/18, da Portaria DAEE nº 1630, de 30/05/17, reti-ratificada em 2",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-chefe-de-divisao-do-alto-do-tiete-de-29-de-maio-de-2026-20260529113311132141882448",
+          "encontrado_em": "20/08/2026 17:09",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "167286",
@@ -14895,7 +15852,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c9b6c402-b440-4955-26c0-08dd3fc8ef77",
+          "data_publicacao": "2025-02-03",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 31 DE JANEIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-31-de-janeiro-de-2025-20250131113211215855017",
+          "encontrado_em": "12/08/2026 17:54",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "49996",
@@ -14944,7 +15912,27 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c9b6c402-b440-4955-26c0-08dd3fc8ef77",
+          "data_publicacao": "2025-02-03",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 31 DE JANEIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-31-de-janeiro-de-2025-20250131113211215855017",
+          "encontrado_em": "12/08/2026 17:54",
+          "via": "identificacao"
+        },
+        {
+          "pub_id": "ded92a6b-6608-4495-3562-08dcf9c19f74",
+          "data_publicacao": "2024-11-01",
+          "titulo": "DESPACHO DA DIRETORA PRESIDENTE DA SP ÁGUAS, DE 31 DE OUTUBRO DE 2024",
+          "resumo": "Revogação de Portaria À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-da-diretora-presidente-da-sp-aguas-de-31-de-outubro-de-2024-20241031113211204688318",
+          "encontrado_em": "12/08/2026 18:07",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "213589",
@@ -15308,7 +16296,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "ce4c154a-80f7-498c-8601-08dcf9fe32bd",
+          "data_publicacao": "2024-11-14",
+          "titulo": "PORTARIA DO DIRETOR DE REGULAÇÃO DA SP ÁGUAS, DE 13 DE NOVEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-diretor-de-regulacao-da-sp-aguas-de-13-de-novembro-de-2024-20241113113211215716103",
+          "encontrado_em": "12/08/2026 18:05",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "14506",
@@ -15349,7 +16348,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "7d7e076a-0773-48f8-7bfa-08dcf9fe32bd",
+          "data_publicacao": "2024-11-12",
+          "titulo": "PORTARIA  DO DIRETOR DE REGULAÇÃO DA SP-ÁGUAS, DE 8 DE NOVEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-diretor-de-regulacao-da-sp-aguas-de-8-de-novembro-de-2024-20241111113211215708527",
+          "encontrado_em": "12/08/2026 18:05",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "14506",
@@ -15635,7 +16645,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "9551b6ed-9f6b-477e-355b-08dcf9c19f74",
+          "data_publicacao": "2024-11-01",
+          "titulo": "PORTARIA DA DIRETORA PRESIDENTE DA AGÊNCIA DE ÁGUAS DO ESTADO DE SÃO PAULO – SP ÁGUAS, DE 31 DE OUTUBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-presidente-da-agencia-de-aguas-do-estado-de-sao-paulo-sp-aguas-de-31-de-outubro-de-2024-20241031113211215688304",
+          "encontrado_em": "12/08/2026 18:07",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "14507",
@@ -15725,7 +16746,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "7be00b9e-61aa-4fac-cfca-08dce407fa0d",
+          "data_publicacao": "2024-10-11",
+          "titulo": "PORTARIA DO PRESIDENTE DA AGÊNCIA DE ÁGUAS DO ESTADO DE SÃO PAULO – SP ÁGUAS, DE 10 DE OUTUBRO DE 2024",
+          "resumo": "Com fundamento no artigo 11, incisos I e XVI do Decreto n. 52.636 de 03/02/71, e à vista do Código de Águas, da Lei 6.134 de 02/06/88, do Decreto n. 32.955 de 07/02/91, da Lei 7.663 de 30/12/91, do Decreto 63.262 de 09/03/18, Portaria D.A.E.E n. 4008, de 25/06/2024, reti-ratificada pela Portaria D.A",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-presidente-da-agencia-de-aguas-do-estado-de-sao-paulo-sp-aguas-de-10-de-outubro-de-2024-20241010113211215646665",
+          "encontrado_em": "12/08/2026 18:09",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "14507",
@@ -15766,7 +16798,18 @@
       "dias_processamento": 559,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "f73a88a1-1f7c-453c-559e-08dd62626172",
+          "data_publicacao": "2025-03-14",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 13 DE MARÇO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-13-de-marco-de-2025-20250313113211215945190",
+          "encontrado_em": "12/08/2026 17:48",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "14507",
@@ -15807,7 +16850,18 @@
       "dias_processamento": 498,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "358141ea-4dc9-4d82-c6a4-08ddd0584dc0",
+          "data_publicacao": "2025-08-01",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 31 DE JULHO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-31-de-julho-de-2025-202507311132112141237968",
+          "encontrado_em": "20/08/2026 17:21",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "220364",
@@ -16123,7 +17177,18 @@
       "dias_processamento": 463,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "dec60f57-147d-4c2c-e5e2-08de599e56cf",
+          "data_publicacao": "2026-01-27",
+          "titulo": "PORTARIA DO CHEFE DE DIVISÃO DO ALTO TIETÊ, DE 26 DE JANEIRO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-chefe-de-divisao-do-alto-tiete-de-26-de-janeiro-de-2026-20260126113311132141590413",
+          "encontrado_em": "20/08/2026 17:15",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "57710",
@@ -17436,7 +18501,18 @@
       "data_ultima_notif": "",
       "dias_ultima_notif": null,
       "excluir_media_fila": true,
-      "excluir_media_processamento": true
+      "excluir_media_processamento": true,
+      "doe_publicacoes": [
+        {
+          "pub_id": "2064c2cd-11cc-4495-f4cd-08dde3820001",
+          "data_publicacao": "2025-09-12",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 11 DE SETEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-11-de-setembro-de-2025-202509111132112141333775",
+          "encontrado_em": "20/08/2026 17:20",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "126493",
@@ -17564,7 +18640,18 @@
       "dias_processamento": 190,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "84014847-3b63-493a-f84e-08dea3e9c4bf",
+          "data_publicacao": "2026-04-28",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 27 DE ABRIL DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-27-de-abril-de-2026-202604271133112141801098",
+          "encontrado_em": "20/08/2026 17:10",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "3096",
@@ -18394,7 +19481,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "338e954c-caa9-4c82-1a0c-08dd1af7a1a9",
+          "data_publicacao": "2024-12-23",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 20 DE DEZEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-20-de-dezembro-de-2024-20241220113211215792420",
+          "encontrado_em": "12/08/2026 17:59",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "3096",
@@ -19501,7 +20599,27 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c8847eb2-8c98-47fb-f314-08de99466526",
+          "data_publicacao": "2026-04-14",
+          "titulo": "DESPACHO DA CHEFE DE DIVISÃO DO MÉDIO TIETÊ, DE 10 DE ABRIL DE 2026",
+          "resumo": "Declaração de Dispensa de Outorga À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n.",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-da-chefe-de-divisao-do-medio-tiete-de-10-de-abril-de-2026-2026041311331182041771452",
+          "encontrado_em": "20/08/2026 17:11",
+          "via": "identificacao"
+        },
+        {
+          "pub_id": "45a456ed-1ccc-48bd-c4f1-08de8ba90c9c",
+          "data_publicacao": "2026-04-14",
+          "titulo": "DESPACHO DO CHEFE DE DIVISÃO DO LITORAL NORTE E BAIXADA, DE 10 DE ABRIL DE 2026",
+          "resumo": "Declaração de Dispensa de Outorga À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n.",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-do-chefe-de-divisao-do-litoral-norte-e-baixada-de-10-de-abril-de-2026-2026041311331182041771784",
+          "encontrado_em": "20/08/2026 17:11",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "60721",
@@ -19538,7 +20656,27 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c8847eb2-8c98-47fb-f314-08de99466526",
+          "data_publicacao": "2026-04-14",
+          "titulo": "DESPACHO DA CHEFE DE DIVISÃO DO MÉDIO TIETÊ, DE 10 DE ABRIL DE 2026",
+          "resumo": "Declaração de Dispensa de Outorga À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n.",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-da-chefe-de-divisao-do-medio-tiete-de-10-de-abril-de-2026-2026041311331182041771452",
+          "encontrado_em": "20/08/2026 17:11",
+          "via": "identificacao"
+        },
+        {
+          "pub_id": "45a456ed-1ccc-48bd-c4f1-08de8ba90c9c",
+          "data_publicacao": "2026-04-14",
+          "titulo": "DESPACHO DO CHEFE DE DIVISÃO DO LITORAL NORTE E BAIXADA, DE 10 DE ABRIL DE 2026",
+          "resumo": "Declaração de Dispensa de Outorga À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n.",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-do-chefe-de-divisao-do-litoral-norte-e-baixada-de-10-de-abril-de-2026-2026041311331182041771784",
+          "encontrado_em": "20/08/2026 17:11",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "50444",
@@ -21445,7 +22583,18 @@
       "dias_processamento": 559,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c3e55004-6053-4f6e-b517-08de212212ac",
+          "data_publicacao": "2025-12-04",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 3 DE DEZEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-3-de-dezembro-de-2025-202512031133112141506485",
+          "encontrado_em": "20/08/2026 17:17",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "3959",
@@ -21486,7 +22635,18 @@
       "dias_processamento": 559,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "c3e55004-6053-4f6e-b517-08de212212ac",
+          "data_publicacao": "2025-12-04",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 3 DE DEZEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-3-de-dezembro-de-2025-202512031133112141506485",
+          "encontrado_em": "20/08/2026 17:17",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "5680",
@@ -22182,7 +23342,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "70bc1bd4-addf-4381-61ba-08de7a3089ec",
+          "data_publicacao": "2026-03-10",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 9 DE MARÇO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-9-de-marco-de-2026-202603091133112141691353",
+          "encontrado_em": "20/08/2026 17:12",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "187804",
@@ -22383,7 +23554,18 @@
       "dias_processamento": 190,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "070ba4bd-b6da-4cc5-6cdd-08deaf69e72b",
+          "data_publicacao": "2026-05-12",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 11 DE MAIO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-11-de-maio-de-2026-202605111133112141834526",
+          "encontrado_em": "20/08/2026 17:10",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "511",
@@ -22420,7 +23602,18 @@
       "dias_processamento": 190,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "070ba4bd-b6da-4cc5-6cdd-08deaf69e72b",
+          "data_publicacao": "2026-05-12",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 11 DE MAIO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-11-de-maio-de-2026-202605111133112141834526",
+          "encontrado_em": "20/08/2026 17:10",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "13840",
@@ -23031,7 +24224,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "6931f343-57a9-4fc8-11f7-08dd40ce108a",
+          "data_publicacao": "2025-02-04",
+          "titulo": "DESPACHO DA DIRETORIA OPERACIONAL DE OUTORGAS, DE 27 DE JANEIRO DE 2025",
+          "resumo": "Informe de Indeferimento Referência: - Interessado: Condomínio Shopping Center Iguatemi - CNPJ: 53.991.378/0001-60 - Município: São Paulo - Processo SP ÁGUAS: 9901426 Tendo em vista o disposto nas Portarias DAEE n. 1630/2017 e 1631/2017 reti-ratificada em 24/06/2020, e da Portaria DAEE nº 4008, de 2",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-da-diretoria-operacional-de-outorgas-de-27-de-janeiro-de-2025-20250203113211204858202",
+          "encontrado_em": "12/08/2026 17:54",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "13840",
@@ -23232,7 +24436,18 @@
       "dias_processamento": 477,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "63c9cd57-f0dd-4429-7dcc-08de04c37584",
+          "data_publicacao": "2025-10-07",
+          "titulo": "PORTARIA  DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 6 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-6-de-outubro-de-2025-202510061132112141385345",
+          "encontrado_em": "20/08/2026 17:19",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "121490",
@@ -23269,7 +24484,18 @@
       "dias_processamento": 484,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "63c9cd57-f0dd-4429-7dcc-08de04c37584",
+          "data_publicacao": "2025-10-07",
+          "titulo": "PORTARIA  DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 6 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-6-de-outubro-de-2025-202510061132112141385345",
+          "encontrado_em": "20/08/2026 17:19",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "121490",
@@ -24526,7 +25752,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "9abf8889-0615-44ec-4d26-08dd1e1760cc",
+          "data_publicacao": "2024-12-20",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 19 DE DEZEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-19-de-dezembro-de-2024-20241219113211215789496",
+          "encontrado_em": "12/08/2026 17:59",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "29872",
@@ -24563,7 +25800,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "338e954c-caa9-4c82-1a0c-08dd1af7a1a9",
+          "data_publicacao": "2024-12-23",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 20 DE DEZEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-20-de-dezembro-de-2024-20241220113211215792420",
+          "encontrado_em": "12/08/2026 17:59",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "29872",
@@ -24600,7 +25848,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "9abf8889-0615-44ec-4d26-08dd1e1760cc",
+          "data_publicacao": "2024-12-20",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 19 DE DEZEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-19-de-dezembro-de-2024-20241219113211215789496",
+          "encontrado_em": "12/08/2026 17:59",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "29872",
@@ -24637,7 +25896,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "9abf8889-0615-44ec-4d26-08dd1e1760cc",
+          "data_publicacao": "2024-12-20",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 19 DE DEZEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-19-de-dezembro-de-2024-20241219113211215789496",
+          "encontrado_em": "12/08/2026 17:59",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "29872",
@@ -24674,7 +25944,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "070ba4bd-b6da-4cc5-6cdd-08deaf69e72b",
+          "data_publicacao": "2026-05-12",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 11 DE MAIO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-11-de-maio-de-2026-202605111133112141834526",
+          "encontrado_em": "20/08/2026 17:10",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "29872",
@@ -24711,7 +25992,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "2b0d0ecd-ce81-4ae6-cc30-08dddb4bdaac",
+          "data_publicacao": "2025-08-15",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 14 DE AGOSTO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-14-de-agosto-de-2025-202508141132112141268762",
+          "encontrado_em": "20/08/2026 17:21",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "29872",
@@ -24748,7 +26040,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "f71bb39a-212f-479b-2b73-08dde3f85bee",
+          "data_publicacao": "2025-08-26",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 25 DE AGOSTO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-25-de-agosto-de-2025-202508251132112141292328",
+          "encontrado_em": "20/08/2026 17:21",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "29872",
@@ -24785,7 +26088,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "f71bb39a-212f-479b-2b73-08dde3f85bee",
+          "data_publicacao": "2025-08-26",
+          "titulo": "PORTARIA DO SUPERINTENDENTE DE REGULAÇÃO DA SP-ÁGUAS, DE 25 DE AGOSTO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-superintendente-de-regulacao-da-sp-aguas-de-25-de-agosto-de-2025-202508251132112141292328",
+          "encontrado_em": "20/08/2026 17:21",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "29872",
@@ -24830,7 +26144,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "2b0d0ecd-ce81-4ae6-cc30-08dddb4bdaac",
+          "data_publicacao": "2025-08-15",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 14 DE AGOSTO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-14-de-agosto-de-2025-202508141132112141268762",
+          "encontrado_em": "20/08/2026 17:21",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "29872",
@@ -25097,7 +26422,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "9e414d66-104f-49e7-c6dc-08dcf9fe24f3",
+          "data_publicacao": "2024-11-06",
+          "titulo": "PORTARIA DO DIRETOR DE REGULAÇÃO DA SP ÁGUAS, DE 5 DE NOVEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-diretor-de-regulacao-da-sp-aguas-de-5-de-novembro-de-2024-20241105113211215697451",
+          "encontrado_em": "12/08/2026 18:06",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "47373",
@@ -25314,7 +26650,27 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "684d98e1-7b25-48d6-0b73-08dee341e021",
+          "data_publicacao": "2026-07-22",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 21 DE JULHO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-21-de-julho-de-2026-202607211133112141994458",
+          "encontrado_em": "20/08/2026 17:08",
+          "via": "identificacao"
+        },
+        {
+          "pub_id": "e9e12285-a17e-4e96-9d56-08de204519c9",
+          "data_publicacao": "2025-11-11",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 10 DE NOVEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-10-de-novembro-de-2025-202511101132112141459261",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "47373",
@@ -25351,7 +26707,27 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "684d98e1-7b25-48d6-0b73-08dee341e021",
+          "data_publicacao": "2026-07-22",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGAS DA SP-ÁGUAS, DE 21 DE JULHO DE 2026",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134, de 02 de junho de 1988, do Decreto Estadual n. 32.955, de 07 de fevereiro de 1991, alterado pelo Decreto Estadual n. 63.261, de 09 de março de 2018, da Lei Estadual n. 7.663, de 30 de dezembro de 1991, do Decreto Estadual n. 63.262, de 09 de març",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorgas-da-sp-aguas-de-21-de-julho-de-2026-202607211133112141994458",
+          "encontrado_em": "20/08/2026 17:08",
+          "via": "identificacao"
+        },
+        {
+          "pub_id": "e9e12285-a17e-4e96-9d56-08de204519c9",
+          "data_publicacao": "2025-11-11",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 10 DE NOVEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-10-de-novembro-de-2025-202511101132112141459261",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "47373",
@@ -25388,7 +26764,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "e9e12285-a17e-4e96-9d56-08de204519c9",
+          "data_publicacao": "2025-11-11",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 10 DE NOVEMBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-10-de-novembro-de-2025-202511101132112141459261",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "47373",
@@ -25433,7 +26820,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "df86a2a6-692a-4087-1866-08de186cd5e7",
+          "data_publicacao": "2025-11-03",
+          "titulo": "DESPACHO DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 31 DE OUTUBRO DE 2025",
+          "resumo": "Declaração sobre Viabilidade de Implantação de Empreendimento Tendo em vista o disposto na Portaria DAEE n. 1.630, de 30/05/2017 e Deliberação SP-ÁGUAS n. 07, de 26/06/2025, as declarações e as informações, apresentado por BORBOLETA 4 BADY EMPREENDIMENTOS IMOBILIÁRIOS SPE LTDA., CPF/CNPJ 47.811.673/",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-do-gerente-de-outorga-da-sp-aguas-de-31-de-outubro-de-2025-202510311132112041440676",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "37726",
@@ -25880,7 +27278,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "f3ee09f2-3c7c-493b-ab9e-08de05bb5fc1",
+          "data_publicacao": "2025-10-08",
+          "titulo": "PORTARIA DO GERENTE DE OUTORGA DA SP-ÁGUAS, DE 7 DE OUTUBRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-do-gerente-de-outorga-da-sp-aguas-de-7-de-outubro-de-2025-202510071132112141389299",
+          "encontrado_em": "20/08/2026 17:19",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "19552",
@@ -25925,7 +27334,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "2387fc85-e4e1-405b-b728-08de269c762b",
+          "data_publicacao": "2025-11-19",
+          "titulo": "DESPACHO DO CHEFE DE DIVISÃO DO ALTO TIETÊ, DE 13 DE NOVEMBRO DE 2025",
+          "resumo": "Informe de Indeferimento Referência: - Interessado: Subcondomínio Torres Empresariais do Ibirapuera - CPF/CNPJ: 08.868.695/0001-30 - Município: São Paulo - Processo SP-ÁGUAS: 9905466 Tendo em vista o disposto na Portaria DAEE n. 1630/2017 e 1631/2017, reti-ratificada em 24/06/2020, e da Deliberação ",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/despacho-do-chefe-de-divisao-do-alto-tiete-de-13-de-novembro-de-2025-20251118113211132041475664",
+          "encontrado_em": "20/08/2026 17:18",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "19552",
@@ -26134,7 +27554,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "10705955-7e42-4fa5-dff0-08dd461c91e7",
+          "data_publicacao": "2025-02-07",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 6 DE FEVEREIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-6-de-fevereiro-de-2025-20250206113211215867782",
+          "encontrado_em": "12/08/2026 17:53",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "21906",
@@ -26171,7 +27602,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "10705955-7e42-4fa5-dff0-08dd461c91e7",
+          "data_publicacao": "2025-02-07",
+          "titulo": "PORTARIA DA DIRETORA DA SP ÁGUAS, DE 6 DE FEVEREIRO DE 2025",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-da-sp-aguas-de-6-de-fevereiro-de-2025-20250206113211215867782",
+          "encontrado_em": "12/08/2026 17:53",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "66101",
@@ -27920,7 +29362,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "61cf56f8-5a97-4954-01ba-08dd0439ce5a",
+          "data_publicacao": "2024-11-18",
+          "titulo": "PORTARIA DA DIRETORA PRESIDENTE DA SP ÁGUAS, DE 14 DE NOVEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-presidente-da-sp-aguas-de-14-de-novembro-de-2024-20241114113211215719443",
+          "encontrado_em": "12/08/2026 18:05",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "3567",
@@ -27957,7 +29410,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "61cf56f8-5a97-4954-01ba-08dd0439ce5a",
+          "data_publicacao": "2024-11-18",
+          "titulo": "PORTARIA DA DIRETORA PRESIDENTE DA SP ÁGUAS, DE 14 DE NOVEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-presidente-da-sp-aguas-de-14-de-novembro-de-2024-20241114113211215719443",
+          "encontrado_em": "12/08/2026 18:05",
+          "via": "identificacao"
+        }
+      ]
     },
     {
       "emp_id": "3567",
@@ -27994,7 +29458,18 @@
       "dias_processamento": null,
       "dias_processado": null,
       "data_ultima_notif": "",
-      "dias_ultima_notif": null
+      "dias_ultima_notif": null,
+      "doe_publicacoes": [
+        {
+          "pub_id": "61cf56f8-5a97-4954-01ba-08dd0439ce5a",
+          "data_publicacao": "2024-11-18",
+          "titulo": "PORTARIA DA DIRETORA PRESIDENTE DA SP ÁGUAS, DE 14 DE NOVEMBRO DE 2024",
+          "resumo": "À vista do Código de Águas, da Lei Estadual n. 6.134 de 02/06/88, do Decreto Estadual n. 32.955 de 07/02/91, alterado pelo Decreto Estadual n. 63.261, de 09/03/2018, da Lei Estadual n. 7.663 de 30/12/91, do Decreto Estadual n. 63.262 de 09/03/18, da Portaria DAEE n. 1.630 de 30/05/17, reti-ratificad",
+          "link_doe": "https://www.doe.sp.gov.br/executivo/secretaria-de-meio-ambiente-infraestrutura-e-logistica/portaria-da-diretora-presidente-da-sp-aguas-de-14-de-novembro-de-2024-20241114113211215719443",
+          "encontrado_em": "12/08/2026 18:05",
+          "via": "identificacao"
+        }
+      ]
     }
   ]
 }
